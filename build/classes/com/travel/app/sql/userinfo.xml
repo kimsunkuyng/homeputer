@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="User">
+	<!-- 회원 가입-->
+	<insert id="signup" parameterType="userinfodto"> 
+		INSERT INTO USER_INFO VALUES (user_index_seq.nextval, #{user_id}, #{user_pw}, #{user_name}, #{user_birth}, #{user_tell}, #{user_email}, 1)
+	</insert>
+	
+	<!-- 로그인 -->
+	<select id="login" parameterType="hashmap" resultType="_int">
+		SELECT COUNT(*) FROM USER_INFO WHERE USER_ID = #{user_id} AND USER_PW = #{user_pw} and USER_ACTIVATE = 1
+	</select>
+	
+	<update id="delete" parameterType="_int">
+		UPDATE USER_INFO SET USER_ACTIVATE = 0 WHERE USER_INDEX = ${user_index}
+	</update>
+	
+	<select id="select" parameterType="String" resultType="userinfodto">
+		SELECT * FROM USER_INFO WHERE USER_ID = '${value}'
+	</select>
+	
+	<update id="update" parameterType="userinfodto">
+		UPDATE USER_INFO SET USER_PW = '${user_pw}', USER_NAME = '${user_name}', USER_BIRTH = '${user_birth}', USER_TELL = '${user_tell}', USER_EMAIL = '${user_email}' WHERE user_id = '${user_id}'
+	</update>
+	
+	<select id="getUser_index" parameterType="string" resultType="_int">
+		SELECT USER_INDEX FROM USER_INFO ui WHERE USER_ID = #{user_id}
+	</select>
+	
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Choice">
+		<!-- choice select -->
+		<select id="getChoice" resultType="choicedto" parameterType="string">
+			SELECT USER_INDEX ,  c.CHOICEID , L.LOCATIONNAME , c2.CATEGORYNAME , i.INFORMATIONNAME , i.INFORMATIONID  FROM CHOICE c INNER JOIN INFORMATION i ON c.INFORMATIONID  = i.INFORMATIONID JOIN CATEGORY c2 ON i.CATEGORYID = c2.CATEGORYID JOIN location L ON i.LOCATIONID = L.LOCATIONID WHERE USER_INDEX = #{user_index}
+		</select>
+		<insert id="addChoice" parameterType="string">
+			INSERT INTO CHOICE VALUES (choice_seq.nextval , #{informationid} , #{user_index})
+		</insert>
+		<delete id="deleteChoice" parameterType="string">
+			DELETE FROM CHOICE c WHERE CHOICEID = #{choiceid}
+		</delete>
+</mapper>

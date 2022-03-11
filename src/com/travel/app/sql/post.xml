@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Post">
+	<select id="getPostCnt" resultType="_int">
+		SELECT COUNT(*) FROM POST p WHERE POSTAVAILLBLE = 0
+	</select>
+	<select id="getPostList" resultType="postdto" parameterType="hashmap">
+		SELECT b.*, u.USER_NAME FROM (SELECT * FROM (SELECT rownum r, p.* FROM (SELECT * FROM POST WHERE POSTAVAILLBLE = 0 ORDER BY POSTID DESC) p) n WHERE n.r BETWEEN #{startRow} AND #{endRow}) b INNER JOIN USER_INFO u ON b.USERINDEX = u.USER_INDEX
+	</select>	
+	<select id="getDetail" resultType="postdto" parameterType="_int">
+		select * from POST where postId = #{postId}
+	</select>
+	<insert id="insertPost" parameterType="postdto">
+		INSERT INTO POST VALUES (seq_post_postId.nextval, #{postTitle}, #{postContent}, sysdate, 0, #{userIndex}) <!-- userIndex컬럼 로그인한 사용자 번호 받기 -->
+	</insert>
+	<update id="updatePost" parameterType="postdto">
+		UPDATE POST SET POSTTITLE = #{postTitle} , POSTCONTENT = #{postContent} WHERE POSTID = #{postId}
+	</update>
+	<update id="deletePost" parameterType="_int">
+		UPDATE POST SET POSTAVAILLBLE = 1 WHERE POSTID = #{postId}
+	</update>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
