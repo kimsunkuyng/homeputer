@@ -5,7 +5,6 @@
 <html>
 <meta charset="UTF-8">
 <head>
-<<<<<<< HEAD:WebContent/app/information/inform2.jsp
     <title>수원 화성</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,10 +19,8 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
-=======
 <meta charset="UTF-8">
 <title>Insert title here</title>
->>>>>>> a66b06cf6e0f8931c237fa5e5483cde6763cc620:WebContent/app/information/info2.jsp
 </head>
 
 
@@ -86,23 +83,23 @@
             </div>
         </div>
         <div>
-        	<a href="/Choice/ChoiceAdd.no?informationid=1">찜하기</a>
+        	<a href="/Choice/ChoiceAdd.no?informationid=2">찜하기</a>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="/assets/img/information/infoHawseong/infoHawseong05.jpg" class="rounded-circle img-fluid border"></a>
+                <img src="/assets/img/information/infoHawseong/infoHawseong05.jpg" class="rounded-circle img-fluid border">
                 <h5 class="text-center mt-3 mb-3">거중기🏗</h5>
-                <p class="text-center"><a>화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요  </a></p>
+                <p class="text-center">다산 정약용의 발명품! <br> 화성 건축의 지대한 영향을 끼쳤다  </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="/assets/img/information/infoHawseong/infoHawseong10.jpg" class="rounded-circle img-fluid border"></a>
+                <img src="/assets/img/information/infoHawseong/infoHawseong10.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">봉돈🔥</h2>
-                <p class="text-center"><a>인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</a></p>
+                <p class="text-center">화성의 대표적인 군사시설 <br> 평상시 남쪽 첫 번째 화두(火竇: 횃불구멍)에서 횃불이나 연기를 올려 용인 석성산과 흥천대 봉화로 신호를 보낸다 </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="/assets/img/information/infoHawseong/infoHawseong11.jpg" class="rounded-circle img-fluid border"></a>
+                <img src="/assets/img/information/infoHawseong/infoHawseong11.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">유네스코 세계문화유산🌏</h2>
-                <p class="text-center"><a>다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</a></p>
+                <p class="text-center">한국전쟁으로 소실된 화성을 화성성역의괘에 있는 기록으로 복원을 해서 <br> 세계문화유산으로 인정을 받았다</p>
             </div>
         </div>
     </section>
@@ -116,65 +113,59 @@
                 <div class="col-lg-6 m-auto">
                     <h1 class="h1"><br>수원 화성<br>다양하게 즐기기</h1>
                     <p>
-                        <br>수 많은 혜택과 함께하는 에버랜드! <br> 다양한 이용권과 함께 즐겨보아요<br>
+                        <br>가벼운 삭책부터 즐거운 역사공부까지 <br> 다양한 문화재와 야경까지 즐겨보세요<br>
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="/assets/img/information/infoHawseong/infoHawseong02.jpg" class="card-img-top" alt="...">
-                        </a>
+                        <img src="/assets/img/information/infoHawseong/infoHawseong02.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
                                     <br>
                                 </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
+                                <li class="text-muted text-right"></li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">자유이용권</a>
+                            <p class="h2 text-decoration-none text-dark">안내도</p>
                             <p class="card-text">
-                                <br>오전, 오후 구분 없이 하루종일 이용이 가능한 티켓입니다 
-                                <br>📢 개장 시간부터 이용하면 폐장시간까지 하루종일 에버랜드에 있을 수 있어요!
+                                <br>수원 화성의 안내도입니다 
+                                <br>수원 화성과 주변 지역의 볼거리를 찾아보세요
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="/assets/img/information/infoHawseong/infoHawseong08.jpeg" class="card-img-top" alt="...">
-                        </a>
+                        <img src="/assets/img/information/infoHawseong/infoHawseong08.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
                                     <br>
                                 </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
+                                <li class="text-muted text-right"></li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">연간 이용권</a>
+                            <p class="h2 text-decoration-none text-dark">정조正祖</p>
                             <p class="card-text">
-                                <br>에버랜드를 자주 이용하시는 분이라면 주목! <br> 무려 한번의 결제로 365일 이용이 가능한 이용권이랍니다 
+                                <br>정조의 이상인 담긴 꿈의 도시 화성입니다 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="/assets/img/information/infoHawseong/infoHawseong07.jpeg" class="card-img-top" alt="...">
-                        </a>
+                        <img src="/assets/img/information/infoHawseong/infoHawseong07.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
                                     <br>
                                 </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
+                                <li class="text-muted text-right"></li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">캐리비안베이</a>
+                            <p class="h2 text-decoration-none text-dark">화성성역의괘</p>
                             <p class="card-text">
-                                <br>여름엔 수영이 빠질 수 없죠! <br> 다양한 워터풀장과 워터슬라이드까지 알차게 놀 수 있어요
+                                <br>화성 건축의 모든 기록이 남겨져있습니다
                             </p>
                         </div>
                     </div>

@@ -14,7 +14,7 @@ public class SqlMapConfig {
 	// 클래스 초기화 블럭(클래스가 처음 로딩될 때 한번만 수행)
 	static {
 		
-		String resource = "./com/travle/mybatis/config.xml";
+		String resource = "./com/travel/mybatis/config.xml";
 		try {
 			Reader reader = Resources.getResourceAsReader(resource);
 			factory = new SqlSessionFactoryBuilder().build(reader);
