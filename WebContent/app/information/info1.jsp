@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<!-- EVERLAND_VIEW -->
 <html>
 <meta charset="UTF-8">
 <head>
@@ -53,21 +54,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/informationEverland/information_everland2.jpg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/informationEverland/infoEverland01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/informationEverland/information_everland1.jpg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/informationEverland/infoEverland02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/informationEverland/information_everland4.jpg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/informationEverland/infoEverland04.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -103,17 +104,17 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/informationEverland/information_everland6.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src="../../assets/img/information/informationEverland/infoEverland06.jpg" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">다양한 놀이기구🎠</h5>
                 <p class="text-center"><a>화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요  </a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/informationEverland/information_everland7.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src="../../assets/img/information/informationEverland/infoEverland07.jpg" class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존📸</h2>
                 <p class="text-center"><a>인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/informationEverland/information_everland8.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src="../../assets/img/information/informationEverland/infoEverland08.jpg" class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
                 <p class="text-center"><a>다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</a></p>
             </div>
@@ -137,7 +138,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="../../assets/img/informationEverland/information_everland9.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/informationEverland/infoEverland09.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -157,7 +158,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="../../assets/img/informationEverland/information_everland10.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/informationEverland/infoEverland10.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -176,7 +177,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="../../assets/img/informationEverland/information_everland11.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/informationEverland/infoEverland11.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
