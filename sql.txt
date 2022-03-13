@@ -1,0 +1,122 @@
+-----------------------------------------create table-----------------------------------------
+
+CREATE TABLE user_info (
+	user_index number(5) PRIMARY KEY,
+	user_id varchar2(300) UNIQUE NOT NULL,
+	user_pw	varchar2(300) NOT NULL,
+	user_name varchar2(300) NOT NULL,
+	user_birth varchar2(300)  NOT NULL,
+	user_tell varchar2(300) UNIQUE NOT NULL,
+	user_email varchar2(300) UNIQUE NOT NULL,
+	user_activate char(1) NOT NULL
+);
+
+CREATE TABLE location (
+	locationId number(5) PRIMARY KEY,
+	locationName varchar2(100) NOT NULL
+);
+
+CREATE TABLE category (
+	categoryId number(5) PRIMARY KEY,
+	categoryName varchar2(100) NOT NULL
+);
+
+CREATE TABLE information (
+	informationId number(5) PRIMARY KEY,
+	informationName varchar(100) NOT NULL,
+	informationUrl varchar2(100) NOT NULL,
+	informarionImg varchar2(100),
+	locationId number(5),
+	categoryId number(5),
+	CONSTRAINTS fk_information_location_id FOREIGN KEY (locationId) REFERENCES location(locationId),
+	CONSTRAINTS fk_information_category_id FOREIGN KEY (categoryId) REFERENCES category(categoryId)
+);
+
+CREATE TABLE choice (
+   choiceId   number(5) PRIMARY KEY,
+   informationId NUMBER(5) NOT NULL UNIQUE,
+   user_index   number(5) NOT null,
+   CONSTRAINTS fk_choice_imformation_id FOREIGN KEY (informationId) REFERENCES information(informationId),
+   CONSTRAINTS fk_choice_user_index FOREIGN KEY (user_index) REFERENCES user_info(user_index)
+);
+
+CREATE TABLE post (
+	postId number(5) PRIMARY KEY,
+	postTitle varchar2(100) NOT NULL,
+	postContent varchar2(4000) NOT NULL,
+	postDate DATE NOT NULL,
+	postAvaillble number(5) NOT NULL,
+	userIndex number(5),
+	CONSTRAINTS fk_post_userIndex FOREIGN KEY (userIndex) REFERENCES user_info(user_index)	
+);
+
+-----------------------------------------create sqeunce-----------------------------------------
+
+CREATE SEQUENCE seq_post_postId INCREMENT BY 1 START WITH 1;
+CREATE SEQUENCE user_index_seq INCREMENT BY 1 START WITH 1;
+CREATE SEQUENCE choice_seq INCREMENT BY 1 START WITH 1;
+
+
+-----------------------------------------insert-----------------------------------------
+
+--user_info 
+INSERT INTO USER_INFO VALUES 
+(user_index_seq.nextval, 'ksk', '1234', '김선경', '2002-03-08', '010-9312-1656', 'buxzz88@naver.com', 1);
+
+--location 
+INSERT INTO LOCATION  
+VALUES (1, '서울');
+INSERT INTO LOCATION  
+VALUES (2, '경기도');
+INSERT INTO LOCATION  
+VALUES (3, '강원도');
+INSERT INTO LOCATION  
+VALUES (4, '충청남도');
+INSERT INTO LOCATION  
+VALUES (5, '전라남도');
+INSERT INTO LOCATION  
+VALUES (6, '경상북도');
+INSERT INTO LOCATION  
+VALUES (7, '제주도');
+
+
+--post
+INSERT INTO POST VALUES 
+(seq_post_postId.nextval, '테스트', '테스트', sysdate, 0, 1);
+INSERT INTO POST VALUES 
+(seq_post_postId.nextval, '테스트', '테스트', sysdate, 1, 1);
+ 
+--category 
+INSERT INTO category VALUES (1, '관광지');
+INSERT INTO category VALUES (2, '축제');
+INSERT INTO category VALUES (3, '맛집');
+--information
+INSERT INTO INFORMATION VALUES (1, '에버랜드', 2 , 1 , 'Everland');
+
+--choice
+INSERT INTO CHOICE VALUES (choice_seq.nextval , 1 , 1);
+
+-----------------------------------------select table-----------------------------------------
+SELECT * FROM USER_INFO ui ;
+SELECT * FROM LOCATION l ;
+SELECT * FROM CATEGORY c ;
+SELECT * FROM INFORMATION i ;
+SELECT * FROM CHOICE c ;
+SELECT * FROM POST p ;
+
+-----------------------------------------drop table-----------------------------------------
+--DROP TABLE USER_INFO ;
+--DROP TABLE LOCATION ;
+--DROP TABLE POST;
+--DROP TABLE INFORMATION ;
+--DROP TABLE CATEGORY ;
+--DROP table CHOICE ;
+
+
+-----------------------------------------drop sequence-----------------------------------------
+
+--DROP SEQUENCE seq_post_postId;
+--DROP SEQUENCE user_index_seq;
+--DROP SEQUENCE choice_seq;
+
+SELECT USER_INDEX ,  c.CHOICEID , L.LOCATIONNAME , c2.CATEGORYNAME , i.INFORMATIONNAME , i.INFORMATIONURl FROM CHOICE c INNER JOIN INFORMATION i ON c.INFORMATIONID  = i.INFORMATIONID JOIN CATEGORY c2 ON i.CATEGORYID = c2.CATEGORYID JOIN location L ON i.LOCATIONID = L.LOCATIONID WHERE USER_INDEX = 1;

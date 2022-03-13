@@ -39,7 +39,7 @@
                         <a href="category_seoul.jsp" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 	                            <div class="card rounded-0">
-	                                <img class="card-img rounded-0 img-fluid" src="../../assets/img/location/Seoul.jpg">
+	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cSeoul.jpg">
 	                            </div>
 <!-- 	                            <div class="card-body"> -->
 <!-- 	                            	<div style="color: black;">서울특별시</div> -->
@@ -49,10 +49,10 @@
                     </div>
                     <div class="col-md-4">
 		               <!-- 클릭시 location_gyeonggi 이동 -->
-                       <a href="categoryGyeonggi.jsp" class="h3 text-decoration-none">
+                       <a href="/category/categoryList.ca" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 		                            <div class="card rounded-0">
-		                                <img class="card-img rounded-0 img-fluid" src="../../assets/img/location/GyeonggiDo.jpg">
+		                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cGyeonggido.jpg">
 		                            </div>
 <!-- 		                            <div class="card-body"> -->
 <!-- 			                            <div style="color: black;">경기도</div> -->
@@ -65,7 +65,7 @@
                     	<a href="category_ganawon.jsp" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 	                            <div class="card rounded-0">
-	                                <img class="card-img rounded-0 img-fluid" src="../../assets/img/location/GangwonDo.jpg">
+	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cGangwondo.jpg">
 	                            </div>
 <!-- 	                            <div class="card-body"> -->
 <!-- 			                    	<div style="color: black;">강원도</div> -->
@@ -78,7 +78,7 @@
                         <a href="category_chungcheong.jsp" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 	                            <div class="card rounded-0">
-	                                <img class="card-img rounded-0 img-fluid" src="../../assets/img/location/ChungcheongnamDo.jpg">
+	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cChungcheongdo.jpg">
 	                            </div>
 <!-- 	                            <div class="card-body"> -->
 <!-- 				                  	<div style="color: black;">충청도</div> -->
@@ -91,7 +91,7 @@
                         <a href="category_jeolla.jsp" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 	                            <div class="card rounded-0">
-	                                <img class="card-img rounded-0 img-fluid" src="../../assets/img/location/JeollanamDo.jpg">
+	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cJeollado.jpg">
 	                            </div>
 <!-- 	                            <div class="card-body"> -->
 <!-- 					            	<div style="color: black;">전라도</div> -->
@@ -104,7 +104,7 @@
                         <a href="category_gyeongsang.jsp" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 	                            <div class="card rounded-0">
-	                                <img class="card-img rounded-0 img-fluid" src="../../assets/img/location/GyeongsangbukDo.jpg">
+	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cGyeongsangdo.jpg">
 	                            </div>
 <!-- 	                            <div class="card-body"> -->
 <!-- 						        	<div style="color: black;">경상도</div> -->
@@ -124,7 +124,7 @@
                         <a href="category_jeju.jsp" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 	                            <div class="card rounded-0">
-	                                <img class="card-img rounded-0 img-fluid" src="../../assets/img/location/Jeju.jpg">
+	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cJeju.jpg">
 	                            </div>
 <!--  	                            <div class="card-body">  -->
 <!--  							    	<div style="color: black;">제주도</div>  -->

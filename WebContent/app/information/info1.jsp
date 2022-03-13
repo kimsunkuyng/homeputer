@@ -106,17 +106,17 @@
             <div class="col-12 col-md-4 p-5 mt-3">
                 <img src="../../assets/img/information/infoEverland/infoEverland06.jpg" class="rounded-circle img-fluid border">
                 <h5 class="text-center mt-3 mb-3">다양한 놀이기구🎠</h5>
-                <p class="text-center"><a>화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요  </a></p>
+                <p class="text-center">화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요</p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
                 <img src="../../assets/img/information/infoEverland/infoEverland07.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존📸</h2>
-                <p class="text-center"><a>인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</a></p>
+                <p class="text-center">인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
                 <img src="../../assets/img/information/infoEverland/infoEverland08.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
-                <p class="text-center"><a>다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</a></p>
+                <p class="text-center">다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</p>
             </div>
         </div>
     </section>
@@ -137,7 +137,9 @@
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoEverland/infoEverland09.jpg" class="card-img-top" alt="...">
+
+                        <img src="../../assets/img/information/infoEverland/infoEverland09.jpg" class="card-img-top" alt="...">
+
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
@@ -145,7 +147,9 @@
                                 </li>
                                 <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
+
                             <h2 class="h2 text-decoration-none text-dark">자유이용권</h2>
+
                             <p class="card-text">
                                 <br>오전, 오후 구분 없이 하루종일 
                                 <br>이용 가능한 티켓입니다 
@@ -156,7 +160,9 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoEverland/infoEverland10.jpg" class="card-img-top" alt="...">
+
+                        <img src="../../assets/img/information/infoEverland/infoEverland10.jpg" class="card-img-top" alt="...">
+
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
@@ -164,7 +170,9 @@
                                 </li>
                                 <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
+
                             <h2 class="h2 text-decoration-none text-dark">연간 이용권</h2>
+
                             <p class="card-text">
                                 <br>에버랜드를 자주 이용하시는 분이라면 주목! 
                                 <br>무려 한번의 결제로💸
@@ -175,7 +183,9 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoEverland/infoEverland11.jpg" class="card-img-top" alt="...">
+
+                        <img src="../../assets/img/information/infoEverland/infoEverland11.jpg" class="card-img-top" alt="...">
+
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
@@ -183,7 +193,9 @@
                                 </li>
                                 <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
+
                             <h2 class="h2 text-decoration-none text-dark">캐리비안베이</h2>
+
                             <p class="card-text">
                                 <br>여름엔 수영이 빠질 수 없죠! 
                                 <br>다양한 워터풀장과 워터슬라이드까지
