@@ -137,7 +137,9 @@
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
+
                         <img src="../../assets/img/information/infoEverland/infoEverland09.jpg" class="card-img-top" alt="...">
+
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
@@ -145,9 +147,12 @@
                                 </li>
                                 <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
-                            <p class="h2 text-decoration-none text-dark">자유이용권</p>
+
+                            <h2 class="h2 text-decoration-none text-dark">자유이용권</h2>
+
                             <p class="card-text">
-                                <br>오전, 오후 구분 없이 하루종일 이용이 가능한 티켓입니다 
+                                <br>오전, 오후 구분 없이 하루종일 
+                                <br>이용 가능한 티켓입니다 
                                 <br>📢 개장 시간부터 이용하면 폐장시간까지 하루종일 에버랜드에 있을 수 있어요!
                             </p>
                         </div>
@@ -155,7 +160,9 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
+
                         <img src="../../assets/img/information/infoEverland/infoEverland10.jpg" class="card-img-top" alt="...">
+
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
@@ -163,16 +170,22 @@
                                 </li>
                                 <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
-                            <p class="h2 text-decoration-none text-dark">연간 이용권</p>
+
+                            <h2 class="h2 text-decoration-none text-dark">연간 이용권</h2>
+
                             <p class="card-text">
-                                <br>에버랜드를 자주 이용하시는 분이라면 주목! <br> 무려 한번의 결제로 365일 이용이 가능한 이용권이랍니다 
+                                <br>에버랜드를 자주 이용하시는 분이라면 주목! 
+                                <br>무려 한번의 결제로💸
+                                <br>365일 이용이 가능한 이용권이랍니다 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
+
                         <img src="../../assets/img/information/infoEverland/infoEverland11.jpg" class="card-img-top" alt="...">
+
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
@@ -180,9 +193,13 @@
                                 </li>
                                 <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
-                            <p class="h2 text-decoration-none text-dark">캐리비안베이</p>
+
+                            <h2 class="h2 text-decoration-none text-dark">캐리비안베이</h2>
+
                             <p class="card-text">
-                                <br>여름엔 수영이 빠질 수 없죠! <br> 다양한 워터풀장과 워터슬라이드까지 알차게 놀 수 있어요
+                                <br>여름엔 수영이 빠질 수 없죠! 
+                                <br>다양한 워터풀장과 워터슬라이드까지
+                               	<br>알차게 놀 수 있어요🏊
                             </p>
                         </div>
                     </div>
@@ -212,7 +229,6 @@
 		</div>
     </section>
     
-        
     <jsp:include page="/footer.jsp"/>
     
     <!-- Start Script -->

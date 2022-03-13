@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--YEONNAMDONG_VIEW -->
+<!--Yeonnamdong_VIEW -->
 <html>
 <meta charset="UTF-8">
 <head>
-    <title>롯데월드</title>
+    <title>연남동 맛집투어</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -54,21 +54,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoLotteworld01.jpg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoLotteworld02.jpg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoLotteworld03.jpg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong03.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -91,11 +91,13 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">신비한 세계 <br> LOTTEWORLD🎡</h1>
+                <h2>인스타 갬성 가득💗</h2>
+                <h1 class="h1">연남동 맛집 거리</h1>
                 <p>
-                    <br>맛있는 먹거리와 구경거리가 가득!
-                    <br>소중하고 새로운 추억을 만들고 싶다면 
-                    <br>여기 롯데월드로 놀러오세요~
+                    <br>데이트 명소로 유명한 연남동!
+                    <br>눈과 입이 모두 즐거운 
+                    <br>다양한 맛집이 즐비해있어요
+                    
                 </p>
             </div>
         </div>
@@ -104,30 +106,31 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-               <img src="../../assets/img/information/infoLotteworld/infoLotteworld04.jpg" class="rounded-circle img-fluid border">
-                <h5 class="text-center mt-3 mb-3">고퀄리티의 컨셉 아트들🧛</h5>
+                <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong04.jpg" class="rounded-circle img-fluid border">
+                <h5 class="text-center mt-3 mb-3">외관부터 완벽한 연남동 거리✨</h5>
                 <p class="text-center">
-                	좀비들을 피해 달아나는<br>
-                	탈출 버스는 어떠신가요?<br>
-                	컨셉에 따라 변하는 새로운 롯데월드를 즐겨보세요
+                	밥 먹으러 왔다가 인생샷 건져가는<br>
+                	일석이득의 공간!<br>
+                	사진 찍는 줄이 더 많다는 소문까지 들린답니다..🎀
                 </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoLotteworld/infoLotteworld05.jpg" class="rounded-circle img-fluid border">
-                <h2 class="h5 text-center mt-3 mb-3">실내/야외 놀이기구🎢</h2>
+                <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong05.jpg" class="rounded-circle img-fluid border">
+                <h2 class="h5 text-center mt-3 mb-3">카페 거리🧁</h2>
                 <p class="text-center">
-               		 날씨와 상관없이 
-               		 <br>언제나 즐길 수 있는 실내 놀이기구가 준비되어 있어요!
-               		 <br> 스릴 넘치는 야외 놀이기구도 덤~
+               		 식사 후 즐기는 예쁘고 달달한 간식이라면
+               		 <br>싸운 커플도 화해시킬 수 있죠!
+               		 <br>담백한 디저트까지 완비되어 있답니다🥐
                 </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-               <img src="../../assets/img/information/infoLotteworld/infoLotteworld06.jpg" class="rounded-circle img-fluid border">
-                <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
+                <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong06.jpg" class="rounded-circle img-fluid border">
+                <h2 class="h5 text-center mt-3 mb-3">교통수단🚅</h2>
                 <p class="text-center">
-               		 다양한 퍼레이드와 함께하는 각종 축제들!
-               		<br>공주님과 왕자님을 만날 준비가 되었나요?
-				</p>
+                	답답하고 오지 않는 버스는 그만!
+                	<br>지하철로 금방 이동할 수 있는
+                	<br>교통최적의 지역이랍니다👊
+                </p>
             </div>
         </div>
     </section>
@@ -139,63 +142,64 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><br>롯데월드<br>다양하게 즐기기</h1>
+                    <h2>연남 맛집 거리의</h2>
+                    <h1 class="h1">명예식당🏅</h1>
                     <p>
-                        <br>놀이기구만으론 아쉽죠!<br>다양한 즐길거리에 대해 알아보아요<br>
+                        <br>수많은 맛집들중<br>가장 맛있는 맛집에 대해 알아보아요<br>
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="../../assets/img/information/infoLotteworld/infoLotteworld07.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
                                     <br>
                                 </li>
                             </ul>
-                            <h2 class="h2 text-decoration-none text-dark">아쿠아리움</h2>
+                            <h2 class="h2 text-decoration-none text-dark">영어롭다</h2>
                             <p class="card-text">
-                                <br>티켓 하나로 바다속 탐험을 갈 수 있어요🌊
-                                <br>귀엽고 신비한 바다친구들을
-                                <br>보고 싶다면 여기로 놀러가기!
+                                <br>신선한 연어회와
+                                <br>해산물 파스타로 유명한 이곳!
+                                <br>대기줄 전용 의자까지 마련되어 있는
+                                <br>유명한 맛집이에요
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoLotteworld/infoLotteworld08.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
                                     <br>
                                 </li>
                             </ul>
-                            <h2 class="h2 text-decoration-none text-dark">부산 롯데월드</h2>
+                            <h2 class="h2 text-decoration-none text-dark">연남귀향</h2>
                             <p class="card-text">
-                                <br>롯데월드는 가고 싶은데,
-                                <br>너무 멀게 느껴지신다면
-                                <br>부산에 새로 개장되는 롯데월드로!
+                                <br>감성돋는 건물 디자인,
+                                <br>고급진 파스타의 조합이라니
+                                <br>새인연을 만나기에도 좋겠죠?
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoLotteworld/infoLotteworld09.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between"> 
-                            	<li>
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
                                     <br>
                                 </li>
                             </ul>
-                            <h2 class="h2 text-decoration-none text-dark">서울스카이</h2>
+                            <h2 class="h2 text-decoration-none text-dark">대중곱창</h2>
                             <p class="card-text">
-                                <br>감성적인 전시관과 카페,
-                                <br> 그리고 스카이쇼가 준비되어 있는
-                                <br>서울 스카이!
+                                <br>고즈넉한 저녁밤과 잘 어울리는
+                                <br>싱싱한 곱창과 소주 한 잔🍾
                             </p>
                         </div>
                     </div>
@@ -214,14 +218,14 @@
     	</div>
     	<!-- 관광지 소개 -->
     	<div class="col-5">
-    		<p>관광지명: 롯데월드 </p>
-    		<p>전화번호: <a href='tel:1661-2000'>1661-2000</a></p>
-    		<p>홈페이지 주소 : <a href = "http://www.lotteworld.com/gate.html">lotteworld.com</a></p>
-    		<p>주소: 서울특별시 송파구 올림픽로 240</p>
+    		<p>관광지명: 연남동 맛집 거리 </p>
+    		<p>전화번호: x
+    		<p>홈페이지 주소 : x</p>
+    		<p>주소: 서울특별시 마포구</p>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">
-    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.809288811666!2d127.09927646557703!3d37.51241592980797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5a7250efe81%3A0x433df2c1fec03b98!2z66Gv642w7JuU65Oc!5e0!3m2!1sko!2skr!4v1647147801936!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6325.357748862643!2d126.91781792742505!3d37.56262891919436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98e8a188c921%3A0x2867c048a51f364b!2z7ISc7Jq47Yq567OE7IucIOuniO2PrOq1rCDsl7Drgqjrj5k!5e0!3m2!1sko!2skr!4v1647156286940!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
     </section>
     
