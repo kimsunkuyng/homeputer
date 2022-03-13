@@ -24,6 +24,8 @@ CREATE TABLE category (
 CREATE TABLE information (
 	informationId number(5) PRIMARY KEY,
 	informationName varchar(100) NOT NULL,
+	informationUrl varchar2(100) NOT NULL,
+	informarionImg varchar2(100),
 	locationId number(5),
 	categoryId number(5),
 	CONSTRAINTS fk_information_location_id FOREIGN KEY (locationId) REFERENCES location(locationId),
