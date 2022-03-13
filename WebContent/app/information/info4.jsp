@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<!--GYEONGBOKGUNG_VIEW -->
 <html>
 <meta charset="UTF-8">
 <head>
-    <title>에버랜드</title>
+    <title>경복궁</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -53,21 +54,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/informationEverland/information_everland2.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoGyeongbokgung/infoGyeongbokgung01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/informationEverland/information_everland1.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoGyeongbokgung/infoGyeongbokgung02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/informationEverland/information_everland4.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoGyeongbokgung/infoGyeongbokgung03.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -90,11 +91,13 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">환상의 나라 <br> EVERLAND🎡</h1>
+                <h2>역사와 아름다움이 섞여있는<br></h2>
+                <h1 class="h1">경복궁으로 놀러오세요!<br></h1>
                 <p>
-                    <br>재밌는 놀이기구와 다양한 체험관이 준비되어 있어요 <br>
-                    할로윈 , 크리스마스 , 봄축제까지🌺 <br>
-                    날마다 새로운 놀이동산으로 놀러오세요!
+                    <br>사계절의 미를 모두 담아, <br>
+			                    여름🌞, 가을🍁, 겨울⛄, 봄💐 <br>
+			                    상관없이 가치있는 관광지랍니다 <br>
+			                   그렇기에 부담없이 즐기기에 안성맞춤이에요🌟
                 </p>
             </div>
         </div>
@@ -103,19 +106,31 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/informationEverland/information_everland6.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">다양한 놀이기구🎠</h5>
-                <p class="text-center"><a>화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요  </a></p>
+                <a href="#"><img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung04.jpg" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">
+                	밤하늘에서 더욱<br>
+                	 더 빛나는 경복궁🌝
+                </h5>
+                <p class="text-center"><a>이런 풍경에서라면 핸드폰 카메라로도 인생사진을 남길 수 있겠죠?<br>자연풍경과 아름다운 야경이 함께라면 셀카도 빛날거에요!</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/informationEverland/information_everland7.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존📸</h2>
-                <p class="text-center"><a>인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</a></p>
+                <a href="#"><img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung05.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">왕의 길 산책⛹️‍♂️</h2>
+                <p class="text-center"><a>일반인은 출입조차 불가했다는 왕의 길!<br>귀한 공간인 만큼 산책하는 맛이 나겠죠?</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/informationEverland/information_everland8.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
-                <p class="text-center"><a>다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</a></p>
+                <a href="#"><img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung06.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">
+             		가이드와 함께라면
+             		<br>역사도 어렵지 않아👩‍🏫
+                </h2>
+                <p class="text-center">
+                <a>
+                	역사적인 공간에서 눈요기만 한다면
+                	<br>아쉬울거에요
+                	<br>전문지식을 가진 가이드선생님과 경복궁의 다양한 이야기를 들어보아요!
+                </a>
+                </p>
             </div>
         </div>
     </section>
@@ -127,9 +142,9 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><br>에버랜드 <br>다양하게 즐기기</h1>
+                    <h1 class="h1"><br>경복궁 <br>알차게 놀아보기</h1>
                     <p>
-                        <br>수 많은 혜택과 함께하는 에버랜드! <br> 다양한 이용권과 함께 즐겨보아요<br>
+                        <br>모르고 가면 손해에요!<br>아는 사람만 안다는 정보에 대해 알아볼까요?<br>
                     </p>
                 </div>
             </div>
@@ -137,7 +152,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="../../assets/img/informationEverland/information_everland9.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung07.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -146,10 +161,14 @@
                                 </li>
                                 <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">자유이용권</a>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">
+                            	한복 대여 서비스
+                            </a>
                             <p class="card-text">
-                                <br>오전, 오후 구분 없이 하루종일 이용이 가능한 티켓입니다 
-                                <br>📢 개장 시간부터 이용하면 폐장시간까지 하루종일 에버랜드에 있을 수 있어요!
+                                <br>단아한 한복부터,
+                                <br>화려한 한복까지 준비되어 있어요!
+                                <br>성별 상관 없이 남/여성용 한복을
+                                <br> 착용할 수 있답니다
                             </p>
                         </div>
                     </div>
@@ -157,7 +176,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="../../assets/img/informationEverland/information_everland10.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung08.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -166,9 +185,9 @@
                                 </li>
                                 <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">연간 이용권</a>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">맛있는 먹거리</a>
                             <p class="card-text">
-                                <br>에버랜드를 자주 이용하시는 분이라면 주목! <br> 무려 한번의 결제로 365일 이용이 가능한 이용권이랍니다 
+                                <br>전통가옥에 걸맞는 건강하고 고급진 한식들이 한상 가득🍽<br>눈과 입 전부 즐거운 맛집들이 즐비해 있답니다
                             </p>
                         </div>
                     </div>
@@ -176,7 +195,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="../../assets/img/informationEverland/information_everland11.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung09.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -185,9 +204,9 @@
                                 </li>
                                 <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">캐리비안베이</a>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">전통 체험</a>
                             <p class="card-text">
-                                <br>여름엔 수영이 빠질 수 없죠! <br> 다양한 워터풀장과 워터슬라이드까지 알차게 놀 수 있어요
+                                <br>궁중음식 체험부터 전통놀이 체험까지, <br>타임머신 없이도 과거의 일부가 되는 경험을 할 수 있어요!
                             </p>
                         </div>
                     </div>
@@ -206,14 +225,14 @@
     	</div>
     	<!-- 관광지 소개 -->
     	<div class="col-5">
-    		<p>관광지명: 에버랜드 </p>
-    		<p>전화번호: <a href='tel:031-320-5000'>031-320-5000</a></p>
-    		<p>홈페이지 주소 : <a href = "https://www.everland.com/">www.everland.com </a></p>
-    		<p>주소: 경기 용인시 처인구 포곡읍 에버랜드로 199</p>
+    		<p>관광지명: 경복궁 </p>
+    		<p>전화번호: <a href='tel:0237003900'>02-3700-3900</a></p>
+    		<p>홈페이지 주소 : <a href = "http://www.royalpalace.go.kr/">www.royalpalace.go.kr</a></p>
+    		<p>주소: 서울특별시 종로구 사직로 161</p>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">
-    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35913.02517970028!2d127.194931500579!3d37.28819016340244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5403ce34d773%3A0x1fa18ab619238098!2z7JeQ67KE656c65Oc!5e0!3m2!1sko!2skr!4v1641283138335!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50625.91528521424!2d127.00798235015063!3d37.52867539878819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c74aeddea1%3A0x8b3046532cc715f6!2z6rK967O16raB!5e0!3m2!1sko!2skr!4v1646989034362!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
     </section>
     

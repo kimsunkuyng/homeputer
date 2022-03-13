@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<!-- EVERLAND_VIEW -->
 <html>
 <meta charset="UTF-8">
 <head>
-    <title>수원 화성</title>
+    <title>에버랜드</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,10 +21,28 @@
     <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
 </head>
 
-
+<jsp:include page="/header.jsp"/>
 
 <body>
-	<jsp:include page="/header.jsp"/>
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
     <!-- Start Banner Hero -->
     <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
@@ -35,21 +54,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoHawseong/infoHawseong01.jpeg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/informationEverland/infoEverland01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoHawseong/infoHawseong04.jpeg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/informationEverland/infoEverland02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoHawseong/infoHawseong09.jpeg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/informationEverland/infoEverland04.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -72,11 +91,12 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">대한민국 사적 제 3호<br> 수원 화성🏰</h1>
+                <h1 class="h1">환상의 나라 <br> EVERLAND🎡</h1>
                 <p>
-                    <br>유네스코 세계문화 유산으로 지정된 <br>
-                    	정조의 이상이 담겨있는 수원 화성입니다 <br>
-				</p>
+                    <br>재밌는 놀이기구와 다양한 체험관이 준비되어 있어요 <br>
+                    할로윈 , 크리스마스 , 봄축제까지🌺 <br>
+                    날마다 새로운 놀이동산으로 놀러오세요!
+                </p>
             </div>
         </div>
         <div>
@@ -84,18 +104,18 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="/assets/img/information/infoHawseong/infoHawseong05.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">거중기🏗</h5>
+                <a href="#"><img src="../../assets/img/information/informationEverland/infoEverland06.jpg" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">다양한 놀이기구🎠</h5>
                 <p class="text-center"><a>화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요  </a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="/assets/img/information/infoHawseong/infoHawseong10.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">봉돈🔥</h2>
+                <a href="#"><img src="../../assets/img/information/informationEverland/infoEverland07.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존📸</h2>
                 <p class="text-center"><a>인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="/assets/img/information/infoHawseong/infoHawseong11.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">유네스코 세계문화유산🌏</h2>
+                <a href="#"><img src="../../assets/img/information/informationEverland/infoEverland08.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
                 <p class="text-center"><a>다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</a></p>
             </div>
         </div>
@@ -108,7 +128,7 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><br>수원 화성<br>다양하게 즐기기</h1>
+                    <h1 class="h1"><br>에버랜드 <br>다양하게 즐기기</h1>
                     <p>
                         <br>수 많은 혜택과 함께하는 에버랜드! <br> 다양한 이용권과 함께 즐겨보아요<br>
                     </p>
@@ -118,7 +138,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="/assets/img/information/infoHawseong/infoHawseong02.jpg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/informationEverland/infoEverland09.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -138,7 +158,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="/assets/img/information/infoHawseong/infoHawseong08.jpeg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/informationEverland/infoEverland10.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -157,7 +177,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="/assets/img/information/infoHawseong/infoHawseong07.jpeg" class="card-img-top" alt="...">
+                            <img src="../../assets/img/information/informationEverland/infoEverland11.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -187,14 +207,14 @@
     	</div>
     	<!-- 관광지 소개 -->
     	<div class="col-5">
-    		<p>관광지명: 수원화성 </p>
-    		<p>전화번호: <a href='tel:031-290-3600'>031-290-3600</a></p>
-    		<p>홈페이지 주소 : <a href = "https://www.suwon.go.kr/web/visitsuwon/hs01/hs01-01/pages.do">https://www.suwon.go.kr/web/visitsuwon/hs01/hs01-01/pages.do </a></p>
-    		<p>주소: 경기 수원시 장안구 영화동 320-2</p>
+    		<p>관광지명: 에버랜드 </p>
+    		<p>전화번호: <a href='tel:031-320-5000'>031-320-5000</a></p>
+    		<p>홈페이지 주소 : <a href = "https://www.everland.com/">www.everland.com </a></p>
+    		<p>주소: 경기 용인시 처인구 포곡읍 에버랜드로 199</p>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">
-    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6349.081791647068!2d127.00881667703285!3d37.28231255593471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5cca0fa82ebb%3A0x1326e46ba3ed1641!2z7IiY7JuQ7ZmU7ISx!5e0!3m2!1sko!2skr!4v1646988431239!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35913.02517970028!2d127.194931500579!3d37.28819016340244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5403ce34d773%3A0x1fa18ab619238098!2z7JeQ67KE656c65Oc!5e0!3m2!1sko!2skr!4v1641283138335!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
     </section>
     
