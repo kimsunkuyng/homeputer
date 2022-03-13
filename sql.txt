@@ -1,4 +1,3 @@
-
 -----------------------------------------create table-----------------------------------------
 
 CREATE TABLE user_info (
@@ -119,14 +118,3 @@ SELECT * FROM POST p ;
 --DROP SEQUENCE choice_seq;
 
 SELECT USER_INDEX ,  c.CHOICEID , L.LOCATIONNAME , c2.CATEGORYNAME , i.INFORMATIONNAME , i.INFORMATIONURl FROM CHOICE c INNER JOIN INFORMATION i ON c.INFORMATIONID  = i.INFORMATIONID JOIN CATEGORY c2 ON i.CATEGORYID = c2.CATEGORYID JOIN location L ON i.LOCATIONID = L.LOCATIONID WHERE USER_INDEX = 1;
-
-
-
-
-
-
-
-
-
-
-
