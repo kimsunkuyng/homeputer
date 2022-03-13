@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!-- LotteWorld_VIEW -->
+<!--YEONNAMDONG_VIEW -->
 <html>
 <meta charset="UTF-8">
 <head>
-    <title>에버랜드</title>
+    <title>롯데월드</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -54,21 +54,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoEverland01.jpg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoLotteworld01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/informationEverland/infoEverland02.jpg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoLotteworld02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/informationEverland/infoEverland04.jpg" alt="">
+                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoLotteworld03.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -91,11 +91,11 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">환상의 나라 <br> EVERLAND🎡</h1>
+                <h1 class="h1">신비한 세계 <br> LOTTEWORLD🎡</h1>
                 <p>
-                    <br>재밌는 놀이기구와 다양한 체험관이 준비되어 있어요 <br>
-                    할로윈 , 크리스마스 , 봄축제까지🌺 <br>
-                    날마다 새로운 놀이동산으로 놀러오세요!
+                    <br>맛있는 먹거리와 구경거리가 가득!
+                    <br>소중하고 새로운 추억을 만들고 싶다면 
+                    <br>여기 롯데월드로 놀러오세요~
                 </p>
             </div>
         </div>
@@ -104,19 +104,30 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/information/informationEverland/infoEverland06.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">다양한 놀이기구🎠</h5>
-                <p class="text-center"><a>화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요  </a></p>
+               <img src="../../assets/img/information/infoLotteworld/infoLotteworld04.jpg" class="rounded-circle img-fluid border">
+                <h5 class="text-center mt-3 mb-3">고퀄리티의 컨셉 아트들🧛</h5>
+                <p class="text-center">
+                	좀비들을 피해 달아나는<br>
+                	탈출 버스는 어떠신가요?<br>
+                	컨셉에 따라 변하는 새로운 롯데월드를 즐겨보세요
+                </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/information/informationEverland/infoEverland07.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존📸</h2>
-                <p class="text-center"><a>인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</a></p>
+                <img src="../../assets/img/information/infoLotteworld/infoLotteworld05.jpg" class="rounded-circle img-fluid border">
+                <h2 class="h5 text-center mt-3 mb-3">실내/야외 놀이기구🎢</h2>
+                <p class="text-center">
+               		 날씨와 상관없이 
+               		 <br>언제나 즐길 수 있는 실내 놀이기구가 준비되어 있어요!
+               		 <br> 스릴 넘치는 야외 놀이기구도 덤~
+                </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/information/informationEverland/infoEverland08.jpg" class="rounded-circle img-fluid border"></a>
+               <img src="../../assets/img/information/infoLotteworld/infoLotteworld06.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
-                <p class="text-center"><a>다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</a></p>
+                <p class="text-center">
+               		 다양한 퍼레이드와 함께하는 각종 축제들!
+               		<br>공주님과 왕자님을 만날 준비가 되었나요?
+				</p>
             </div>
         </div>
     </section>
@@ -128,67 +139,63 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><br>에버랜드 <br>다양하게 즐기기</h1>
+                    <h1 class="h1"><br>롯데월드<br>다양하게 즐기기</h1>
                     <p>
-                        <br>수 많은 혜택과 함께하는 에버랜드! <br> 다양한 이용권과 함께 즐겨보아요<br>
+                        <br>놀이기구만으론 아쉽죠!<br>다양한 즐길거리에 대해 알아보아요<br>
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="../../assets/img/information/informationEverland/infoEverland09.jpg" class="card-img-top" alt="...">
-                        </a>
+                        <img src="../../assets/img/information/infoLotteworld/infoLotteworld07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
                                     <br>
                                 </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">자유이용권</a>
+                            <h2 class="h2 text-decoration-none text-dark">아쿠아리움</h2>
                             <p class="card-text">
-                                <br>오전, 오후 구분 없이 하루종일 이용이 가능한 티켓입니다 
-                                <br>📢 개장 시간부터 이용하면 폐장시간까지 하루종일 에버랜드에 있을 수 있어요!
+                                <br>티켓 하나로 바다속 탐험을 갈 수 있어요🌊
+                                <br>귀엽고 신비한 바다친구들을
+                                <br>보고 싶다면 여기로 놀러가기!
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="../../assets/img/information/informationEverland/infoEverland10.jpg" class="card-img-top" alt="...">
-                        </a>
+                            <img src="../../assets/img/information/infoLotteworld/infoLotteworld08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
                                 <li>
                                     <br>
                                 </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">연간 이용권</a>
+                            <h2 class="h2 text-decoration-none text-dark">부산 롯데월드</h2>
                             <p class="card-text">
-                                <br>에버랜드를 자주 이용하시는 분이라면 주목! <br> 무려 한번의 결제로 365일 이용이 가능한 이용권이랍니다 
+                                <br>롯데월드는 가고 싶은데,
+                                <br>너무 멀게 느껴지신다면
+                                <br>부산에 새로 개장되는 롯데월드로!
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="../../assets/img/information/informationEverland/infoEverland11.jpg" class="card-img-top" alt="...">
-                        </a>
+                            <img src="../../assets/img/information/infoLotteworld/infoLotteworld09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
+                            <ul class="list-unstyled d-flex justify-content-between"> 
+                            	<li>
                                     <br>
                                 </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">캐리비안베이</a>
+                            <h2 class="h2 text-decoration-none text-dark">서울스카이</h2>
                             <p class="card-text">
-                                <br>여름엔 수영이 빠질 수 없죠! <br> 다양한 워터풀장과 워터슬라이드까지 알차게 놀 수 있어요
+                                <br>감성적인 전시관과 카페,
+                                <br> 그리고 스카이쇼가 준비되어 있는
+                                <br>서울 스카이!
                             </p>
                         </div>
                     </div>
@@ -207,14 +214,14 @@
     	</div>
     	<!-- 관광지 소개 -->
     	<div class="col-5">
-    		<p>관광지명: 에버랜드 </p>
-    		<p>전화번호: <a href='tel:031-320-5000'>031-320-5000</a></p>
-    		<p>홈페이지 주소 : <a href = "https://www.everland.com/">www.everland.com </a></p>
-    		<p>주소: 경기 용인시 처인구 포곡읍 에버랜드로 199</p>
+    		<p>관광지명: 롯데월드 </p>
+    		<p>전화번호: <a href='tel:1661-2000'>1661-2000</a></p>
+    		<p>홈페이지 주소 : <a href = "http://www.lotteworld.com/gate.html">lotteworld.com</a></p>
+    		<p>주소: 서울특별시 송파구 올림픽로 240</p>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">
-    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35913.02517970028!2d127.194931500579!3d37.28819016340244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5403ce34d773%3A0x1fa18ab619238098!2z7JeQ67KE656c65Oc!5e0!3m2!1sko!2skr!4v1641283138335!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.809288811666!2d127.09927646557703!3d37.51241592980797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5a7250efe81%3A0x433df2c1fec03b98!2z66Gv642w7JuU65Oc!5e0!3m2!1sko!2skr!4v1647147801936!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
     </section>
     
