@@ -6,9 +6,10 @@
 <configuration>
 
 	<typeAliases>
-		<typeAlias type="com.travle.app.post.dao.PostDTO" alias="postdto"/>
+		<typeAlias type="com.travel.app.post.dao.PostDTO" alias="postdto"/>
 		<typeAlias type="com.travel.app.user.dao.UserInfoDTO" alias="userinfodto" />
 		<typeAlias type="com.travel.app.Choice.dao.ChoiceDTO" alias="choicedto"/>
+		<typeAlias type="com.travel.category.dao.CategoryDTO" alias="categorydto"/>
 	</typeAliases>
 	
 	<environments default="development">
@@ -24,9 +25,10 @@
 	</environments>
 
 	<mappers>
-		<mapper resource="com/travle/app/sql/post.xml"/>
-		<mapper resource="com/travle/app/sql/userinfo.xml" />
-		<mapper resource="com/travle/app/sql/Choice.xml"/>
+		<mapper resource="com/travel/app/sql/post.xml"/>
+		<mapper resource="com/travel/app/sql/userinfo.xml" />
+		<mapper resource="com/travel/app/sql/Choice.xml"/>
+		<mapper resource="com/travel/app/sql/category.xml"/>
 	</mappers>
 </configuration>
 
