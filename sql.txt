@@ -24,13 +24,13 @@ CREATE TABLE category (
 CREATE TABLE information (
 	informationId number(5) PRIMARY KEY,
 	informationName varchar(100) NOT NULL,
-	informationUrl varchar2(100) NOT NULL,
-	informarionImg varchar2(100),
+	informationImg varchar2(100),
 	locationId number(5),
 	categoryId number(5),
 	CONSTRAINTS fk_information_location_id FOREIGN KEY (locationId) REFERENCES location(locationId),
 	CONSTRAINTS fk_information_category_id FOREIGN KEY (categoryId) REFERENCES category(categoryId)
 );
+
 
 CREATE TABLE choice (
    choiceId   number(5) PRIMARY KEY,
@@ -91,32 +91,10 @@ INSERT INTO category VALUES (1, '관광지');
 INSERT INTO category VALUES (2, '축제');
 INSERT INTO category VALUES (3, '맛집');
 --information
-INSERT INTO INFORMATION VALUES (1, '에버랜드', 2 , 1 , 'Everland');
+INSERT INTO INFORMATION VALUES (1, '에버랜드', '/assets/img/information/infoEverland/infoEverland02.jpg' , 1 , 1);
 
 --choice
 INSERT INTO CHOICE VALUES (choice_seq.nextval , 1 , 1);
 
------------------------------------------select table-----------------------------------------
-SELECT * FROM USER_INFO ui ;
-SELECT * FROM LOCATION l ;
-SELECT * FROM CATEGORY c ;
-SELECT * FROM INFORMATION i ;
-SELECT * FROM CHOICE c ;
-SELECT * FROM POST p ;
-
------------------------------------------drop table-----------------------------------------
---DROP TABLE USER_INFO ;
---DROP TABLE LOCATION ;
---DROP TABLE POST;
---DROP TABLE INFORMATION ;
---DROP TABLE CATEGORY ;
---DROP table CHOICE ;
-
-
------------------------------------------drop sequence-----------------------------------------
-
---DROP SEQUENCE seq_post_postId;
---DROP SEQUENCE user_index_seq;
---DROP SEQUENCE choice_seq;
-
-SELECT USER_INDEX ,  c.CHOICEID , L.LOCATIONNAME , c2.CATEGORYNAME , i.INFORMATIONNAME , i.INFORMATIONURl FROM CHOICE c INNER JOIN INFORMATION i ON c.INFORMATIONID  = i.INFORMATIONID JOIN CATEGORY c2 ON i.CATEGORYID = c2.CATEGORYID JOIN location L ON i.LOCATIONID = L.LOCATIONID WHERE USER_INDEX = 1;
+-- SELECT 
+SELECT * FROM INFORMATION i WHERE CATEGORYID = 1 ;
