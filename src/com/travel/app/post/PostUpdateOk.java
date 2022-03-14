@@ -16,20 +16,20 @@ public class PostUpdateOk implements Action {
 		PostDAO pdao = new PostDAO();
 		PostDTO pdto = new PostDTO();
 		
-		int postId = Integer.parseInt(request.getParameter("postId"));
+		String postId = request.getParameter("postId");
 		String postTitle = request.getParameter("postTitle");
 		String postContent = request.getParameter("postContent");
-		System.out.println(postId);
 		
 		pdto.setPostId(postId);
 		pdto.setPostTitle(postTitle);
 		pdto.setPostContent(postContent);
-		
 		forward.setRedirect(true);
 		
-		if(pdao.updatePost(pdto)) {
+		try {
+			pdao.updatePost(pdto);
 			forward.setPath(request.getContextPath() + "/post/post.do?page=1");
-		} else {
+		} catch (Exception e) {
+			//얼럿처리
 			forward.setPath(request.getContextPath() + "/post/postEdit.do");
 		}
 		

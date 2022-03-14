@@ -1,5 +1,7 @@
 package com.travel.action;
 
+import javax.servlet.http.HttpSession;
+
 public class ActionForward {
 	private boolean isRedirect;
 	private String path;
@@ -23,9 +25,5 @@ public class ActionForward {
 	public void setPath(String path) {
 		this.path = path;
 	}
-	
-	
-	
-	
 
 }

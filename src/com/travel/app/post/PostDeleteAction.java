@@ -16,10 +16,10 @@ public class PostDeleteAction implements Action{
 		PostDAO pdao = new PostDAO();
 		PostDTO pdto = new PostDTO();
 		
-		int postId = Integer.parseInt(request.getParameter("postId"));
+		String postId = request.getParameter("postId");
 		System.out.println(postId);
 		
-		pdto.setPostAvailable(1);
+		pdto.setPostAvailable("1");
 		
 		forward.setRedirect(true);
 		if(pdao.deletePost(postId)) {
