@@ -26,29 +26,34 @@
 	
 	<!-- post.jsp에서 선택한 해당 게시물 선언 -->
 	<c:set var="post" value="${requestScope.post }"/>
-	
     <!-- Start Contact -->
     <div class="container py-5">
-        <div class="row py-5">
-            <form class="col-md-9 m-auto" method="post" role="form" name="postForm" action="${pageContext.request.contextPath }/post/postEditOk.do">
-            	<!-- 게시글 제목 입력 -->
-                <div class="mb-3">
-                    <input type="text" class="form-control mt-1" id="subject" name="postTitle" value="${post.postTitle}">
-                </div>
-                <!-- 게시글 내용 출력 -->
-                <div class="mb-3">
-                    <textarea class="form-control mt-1" id="message" name="postContent" rows="20">${post.postContent }</textarea>
-                </div>
-                <div class="row">
-                    <div class="col text-end mt-2">
-                        <button type="submit" class="btn btn-success btn-lg px-3">글쓰기</button>
-                        <button type="button" class="btn btn-success btn-lg px-3"><a href="/post/post.do">목록</a></button>
-                    </div>
-                </div>
-            </form>
-        </div>
+    	<form class="col-md-9 m-auto" method="post" role="form" name="postForm" action="${pageContext.request.contextPath }/post/postEditOk.do">
+        	<div class="row py-5">
+	    		<div class="dropdown">
+					<select class="btn btn-success btn-sm dropdown-toggle" name="postCategory" id="postCategory">
+						<option value="1">여행후기</option>
+						<option value="2">자유게시판</option>
+						<option value="3">Q&A</option>
+					</select>
+	    		</div>
+           		<!-- 게시글 제목 입력 -->
+               	<div class="mb-3">
+                	<input type="text" class="form-control mt-1" id="subject" name="postTitle" value="${post.postTitle}" placeholder="제목을 입력하세요">
+               	</div>
+               	<!-- 게시글 내용 출력 -->
+               	<div class="mb-3">
+                   <textarea class="form-control mt-1" id="message" name="postContent" rows="20" placeholder="내용을 입력하세요">${post.postContent }</textarea>
+               	</div>
+               	<div class="row">
+                   <div class="col text-end mt-2">
+                       <input type="submit" class="btn btn-success btn-lg px-3" value="글쓰기">
+                       <a type="button" class="btn btn-success btn-lg px-3" href="/post/post.do">목록</a>
+                   </div>
+               	</div>
+      		</div>
+    	</form>
     </div>
-    
     <jsp:include page="/footer.jsp"/>
 </body>
 </html>

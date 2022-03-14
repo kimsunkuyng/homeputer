@@ -28,7 +28,7 @@
                         </li>
                         <li class="nav-item">
                         	<!-- post 페이지 이동 -->
-                            <a class="nav-link" href="/post/post.do">게시글</a>
+                            <a class="nav-link" href="/post/postAll.do?postCategory=0">게시글</a>
                         </li>
                         <li class="nav-item">
                         	<!-- post 페이지 이동 -->

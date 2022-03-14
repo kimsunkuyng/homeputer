@@ -15,6 +15,8 @@ public class PostAction implements Action {
 		PostDAO pdao = new PostDAO();
 		
 		String temp  = request.getParameter("page");
+		int postCategory = Integer.parseInt(request.getParameter("postCategory"));
+		System.out.println("postCategory" + postCategory);
 		int totalCnt = pdao.getPostCnt();
 		int page = 0;
 		page = temp == null ? 1 : Integer.parseInt(temp);
@@ -33,11 +35,14 @@ public class PostAction implements Action {
 		request.setAttribute("startPage", startPage);
 		request.setAttribute("endPage", endPage);
 		request.setAttribute("totalCnt", totalCnt);
-		request.setAttribute("postList", pdao.getPostList(startRow, endRow));
+		if(postCategory == 0) {
+			request.setAttribute("postList", pdao.getPostListAll(startRow, endRow));
+		} else {
+			request.setAttribute("postList", pdao.getPostListSelect(startRow, endRow, postCategory));
+		}
 
 		forward.setRedirect(false);
-		forward.setPath(request.getContextPath() + "/app/post/post.jsp");
+		forward.setPath(request.getContextPath() + "/app/post/postAll.jsp");
 		return forward;
-		
 	}
 }

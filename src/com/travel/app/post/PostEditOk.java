@@ -20,18 +20,25 @@ public class PostEditOk implements Action {
 		
 		String postTitle = request.getParameter("postTitle");
 		String postContent = request.getParameter("postContent");
+		String postCategory = request.getParameter("postCategory");
 		
 		pdto.setPostTitle(postTitle);
 		pdto.setPostContent(postContent);
-		pdto.setUserIndex((Integer)session.getAttribute("user_index"));
+		pdto.setUserIndex(String.valueOf(session.getAttribute("user_index")));
+		pdto.setPostCategory(postCategory);
 		forward.setRedirect(true);
+		System.out.println(pdto.getPostCategory());
+		System.out.println(pdto.getUserIndex());
 		
-		if(pdao.insertPost(pdto)) {
-			forward.setPath(request.getContextPath() + "/post/post.do?page=1");
-		} else {
-			forward.setPath(request.getContextPath() + "/post/postEdit.do");
-		}
-		
+		pdao.insertPost(pdto);
+		forward.setPath(request.getContextPath() + "/post/post.do?page=1");
+//		try {
+//		} catch (Exception e) {
+//			//얼럿처리
+//			forward.setPath(request.getContextPath() + "/post/postEdit.do");
+//
+//		}
+
 		return forward;
 	}
 }

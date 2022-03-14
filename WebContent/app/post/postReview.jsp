@@ -23,18 +23,6 @@
 	<link rel="stylesheet" href="/assets/css/fontawesome.min.css">
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-<style>
-	a:link {
-		color: black; text-decoration: none;
-	}
-	a:visited {
-		color: black; text-decoration: none;
-	}
-	a:hover {
-		color: black; text-decoration: underline;
-	}
-</style>	
 </head>	
 <body>
 	<jsp:include page="/header.jsp"/>
@@ -46,22 +34,13 @@
 	<div class="container py-5">
 		<div class="row">
 			<div class="col-lg-2">
-				<ul class="list-unstyled templatemo-accordion">
-					<li class="pb-3">
-						<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">모아보기</a>
-					</li>
-					<li class="pb-3">
-						<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#"> 여행후기</a>
-					</li>
-					<li class="pb-3">
-						<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#"> 자유게시판</a>
-					</li>
-					<li class="pb-3">
-						<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#"> Q&A</a>
-					</li>
-				</ul>
+				<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="/post/postAll.do?postCategory=0">모아보기</a>
+				<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="/post/postReview.do?postCategory=1"> 여행후기</a>
+				<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="/post/postFree.do?postCategory=2"> 자유게시판</a>
+				<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="/post/postQna.do?postCategory=3"> Q&A</a>
 			</div>
 			<div class="col-lg-10">
+			<h3>여행후기</h3>
 				<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd;">
 					<thead style="background-color: #28A745; color: #ffffff;">
 						<tr>
@@ -78,9 +57,9 @@
 									<td>
 										${post.postId }
 									</td>
-									<td>
+									<td >
 										<a href="${pageContext.request.contextPath }/post/post_view.do?postId=${post.postId}">${post.postTitle }</a>
-									</td>
+									</td0>
 									<td>
 										${post.user_name }
 									</td>
@@ -132,7 +111,8 @@
 				<div class="text-end mt-2">
 					<c:choose>
 						<c:when test="${loginStat == 1 }">
-							<a class="btn btn-success btn-lg px-3" href="${pageContext.request.contextPath }/post/postEdit.do">글쓰기</a>
+                        	<a type="button" class="btn btn-success btn-lg px-3" href="${pageContext.request.contextPath }/post/postEdit.do">글쓰기</a>
+<%-- 							<a class="btn btn-success btn-lg px-3" href="${pageContext.request.contextPath }/post/postEdit.do">글쓰기</a> --%>
 						</c:when>
 						<c:otherwise>
 							<p></p>

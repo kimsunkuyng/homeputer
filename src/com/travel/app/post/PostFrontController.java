@@ -29,7 +29,16 @@ public class PostFrontController extends HttpServlet {
 		ActionForward forward = null;
 		
 		switch(requestURI) {
-			case "/post/post.do":
+			case "/post/postAll.do":
+				forward = new PostAction().execute(req, resp);
+				break;
+			case "/post/postReview.do":
+				forward = new PostAction().execute(req, resp);
+				break;
+			case "/post/postFree.do":
+				forward = new PostAction().execute(req, resp);
+				break;
+			case "/post/postQna.do":
 				forward = new PostAction().execute(req, resp);
 				break;
 			case "/post/post_view.do":
