@@ -1,4 +1,4 @@
-package com.travel.category.dao;
+package com.travel.app.category.dao;
 
 public class CategoryDTO {
 

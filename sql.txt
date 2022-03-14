@@ -92,6 +92,7 @@ INSERT INTO category VALUES (2, '축제');
 INSERT INTO category VALUES (3, '맛집');
 --information
 INSERT INTO INFORMATION VALUES (1, '에버랜드', '/assets/img/information/infoEverland/infoEverland02.jpg' , 1 , 1);
+INSERT INTO INFORMATION VALUES (2, '수원화성', '/assets/img/information/infoHawseong/infoHawseong01.jpeg' , 1 , 1);
 
 --choice
 INSERT INTO CHOICE VALUES (choice_seq.nextval , 1 , 1);
