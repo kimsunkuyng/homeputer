@@ -82,9 +82,6 @@
 				</p>
             </div>
         </div>
-        <div>
-        	<a href="/Choice/ChoiceAdd.no?informationid=2">찜하기</a>
-        </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
                 <img src="/assets/img/information/infoHawseong/infoHawseong05.jpg" class="rounded-circle img-fluid border">
@@ -170,6 +167,7 @@
     		<p>전화번호: <a href='tel:031-290-3600'>031-290-3600</a></p>
     		<p>홈페이지 주소 : <a href = "https://www.suwon.go.kr/web/visitsuwon/hs01/hs01-01/pages.do">https://www.suwon.go.kr/web/visitsuwon/hs01/hs01-01/pages.do </a></p>
     		<p>주소: 경기 수원시 장안구 영화동 320-2</p>
+    		<jsp:include page="/app/choice/addChoice.jsp"/>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">

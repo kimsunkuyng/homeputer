@@ -54,21 +54,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoEverland/infoEverland01.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoEverland/infoEverland02.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoEverland/infoEverland04.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland04.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -93,28 +93,25 @@
             <div class="col-lg-6 m-auto">
                 <h1 class="h1">환상의 나라 <br> EVERLAND🎡</h1>
                 <p>
-                    <br>재밌는 놀이기구와 다양한 체험관이 준비되어 있어요 <br>
-                    할로윈 , 크리스마스 , 봄축제까지🌺 <br>
-                    날마다 새로운 놀이동산으로 놀러오세요!
+                    <br>재밌는 놀이기구와 다양한 체험관이 준비되어 있어요 
+                    <br>할로윈 , 크리스마스 , 봄축제까지🌺 
+                    <br>날마다 새로운 놀이동산으로 놀러오세요!
                 </p>
             </div>
         </div>
-        <div>
-        	<a href="/Choice/ChoiceAdd.no?informationid=1">찜하기</a>
-        </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoEverland/infoEverland06.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoEverland/infoEverland06.jpg" class="rounded-circle img-fluid border">
                 <h5 class="text-center mt-3 mb-3">다양한 놀이기구🎠</h5>
                 <p class="text-center">화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요</p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoEverland/infoEverland07.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoEverland/infoEverland07.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존📸</h2>
                 <p class="text-center">인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoEverland/infoEverland08.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoEverland/infoEverland08.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
                 <p class="text-center">다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</p>
             </div>
@@ -137,9 +134,7 @@
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-
-                        <img src="../../assets/img/information/infoEverland/infoEverland09.jpg" class="card-img-top" alt="...">
-
+                        <img src="/assets/img/information/infoEverland/infoEverland09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="h2 text-decoration-none text-dark">자유이용권</h2>
                             <p class="card-text">
@@ -152,9 +147,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-
-                        <img src="../../assets/img/information/infoEverland/infoEverland10.jpg" class="card-img-top" alt="...">
-
+                        <img src="/assets/img/information/infoEverland/infoEverland10.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="h2 text-decoration-none text-dark">연간 이용권</h2>
                             <p class="card-text">
@@ -167,9 +160,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-
-                        <img src="../../assets/img/information/infoEverland/infoEverland11.jpg" class="card-img-top" alt="...">
-
+                        <img src="/assets/img/information/infoEverland/infoEverland11.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="h2 text-decoration-none text-dark">캐리비안베이</h2>
                             <p class="card-text">
@@ -198,6 +189,7 @@
     		<p>전화번호: <a href='tel:031-320-5000'>031-320-5000</a></p>
     		<p>홈페이지 주소 : <a href = "https://www.everland.com/">www.everland.com </a></p>
     		<p>주소: 경기 용인시 처인구 포곡읍 에버랜드로 199</p>
+    		<jsp:include page="/app/choice/addChoice.jsp"/>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">
