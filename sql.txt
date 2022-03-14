@@ -1,34 +1,34 @@
 -----------------------------------------create table-----------------------------------------
 
 CREATE TABLE user_info (
-	user_index number(5) PRIMARY KEY,
-	user_id varchar2(300) UNIQUE NOT NULL,
-	user_pw	varchar2(300) NOT NULL,
-	user_name varchar2(300) NOT NULL,
-	user_birth varchar2(300)  NOT NULL,
-	user_tell varchar2(300) UNIQUE NOT NULL,
-	user_email varchar2(300) UNIQUE NOT NULL,
-	user_activate char(1) NOT NULL
+   user_index number(5) PRIMARY KEY,
+   user_id varchar2(300) UNIQUE NOT NULL,
+   user_pw   varchar2(300) NOT NULL,
+   user_name varchar2(300) NOT NULL,
+   user_birth varchar2(300)  NOT NULL,
+   user_tell varchar2(300) UNIQUE NOT NULL,
+   user_email varchar2(300) UNIQUE NOT NULL,
+   user_activate char(1) NOT NULL
 );
 
 CREATE TABLE location (
-	locationId number(5) PRIMARY KEY,
-	locationName varchar2(100) NOT NULL
+   locationId number(5) PRIMARY KEY,
+   locationName varchar2(100) NOT NULL
 );
 
 CREATE TABLE category (
-	categoryId number(5) PRIMARY KEY,
-	categoryName varchar2(100) NOT NULL
+   categoryId number(5) PRIMARY KEY,
+   categoryName varchar2(100) NOT NULL
 );
 
 CREATE TABLE information (
-	informationId number(5) PRIMARY KEY,
-	informationName varchar(100) NOT NULL,
-	informationImg varchar2(100),
-	locationId number(5),
-	categoryId number(5),
-	CONSTRAINTS fk_information_location_id FOREIGN KEY (locationId) REFERENCES location(locationId),
-	CONSTRAINTS fk_information_category_id FOREIGN KEY (categoryId) REFERENCES category(categoryId)
+   informationId number(5) PRIMARY KEY,
+   informationName varchar(100) NOT NULL,
+   informationImg varchar2(100),
+   locationId number(5),
+   categoryId number(5),
+   CONSTRAINTS fk_information_location_id FOREIGN KEY (locationId) REFERENCES location(locationId),
+   CONSTRAINTS fk_information_category_id FOREIGN KEY (categoryId) REFERENCES category(categoryId)
 );
 
 

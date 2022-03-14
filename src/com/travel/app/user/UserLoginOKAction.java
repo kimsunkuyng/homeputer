@@ -16,7 +16,6 @@ public class UserLoginOKAction implements Action{
 		UserInfoDAO udao = new UserInfoDAO();
 		String user_id = request.getParameter("user_id");
 		String user_pw = request.getParameter("user_pw");
-		
 		if(udao.login(user_id, user_pw)) {
 			//로그인 성공
 			HttpSession session = request.getSession();
