@@ -106,30 +106,34 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung04.jpg" class="rounded-circle img-fluid border"></a>
+                <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung04.jpg" class="rounded-circle img-fluid border">
                 <h5 class="text-center mt-3 mb-3">
                 	밤하늘에서 더욱<br>
                 	 더 빛나는 경복궁🌝
                 </h5>
-                <p class="text-center"><a>이런 풍경에서라면 핸드폰 카메라로도 인생사진을 남길 수 있겠죠?<br>자연풍경과 아름다운 야경이 함께라면 셀카도 빛날거에요!</a></p>
+                <p class="text-center">
+                	이런 풍경에서라면 핸드폰 카메라로도 인생사진을 남길 수 있겠죠?
+                	<br>자연풍경과 아름다운 야경이 함께라면 셀카도 빛날거에요!
+                </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung05.jpg" class="rounded-circle img-fluid border"></a>
+                <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung05.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">왕의 길 산책⛹️‍♂️</h2>
-                <p class="text-center"><a>일반인은 출입조차 불가했다는 왕의 길!<br>귀한 공간인 만큼 산책하는 맛이 나겠죠?</a></p>
+                <p class="text-center">
+					일반인은 출입조차 불가했다는 왕의 길!
+					<br>귀한 공간인 만큼 산책하는 맛이 나겠죠?
+				</p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung06.jpg" class="rounded-circle img-fluid border"></a>
+                <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung06.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">
              		가이드와 함께라면
              		<br>역사도 어렵지 않아👩‍🏫
                 </h2>
                 <p class="text-center">
-                <a>
                 	역사적인 공간에서 눈요기만 한다면
                 	<br>아쉬울거에요
                 	<br>전문지식을 가진 가이드선생님과 경복궁의 다양한 이야기를 들어보아요!
-                </a>
                 </p>
             </div>
         </div>
@@ -151,19 +155,9 @@
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung07.jpg" class="card-img-top" alt="...">
-                        </a>
+                        <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">
-                            	한복 대여 서비스
-                            </a>
+                            <h2 class="h2 text-decoration-none text-dark">한복 대여 서비스 </h2>
                             <p class="card-text">
                                 <br>단아한 한복부터,
                                 <br>화려한 한복까지 준비되어 있어요!
@@ -175,17 +169,9 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung08.jpg" class="card-img-top" alt="...">
-                        </a>
+                        <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">맛있는 먹거리</a>
+                            <h2 class="h2 text-decoration-none text-dark">맛있는 먹거리</h2>
                             <p class="card-text">
                                 <br>전통가옥에 걸맞는 건강하고 고급진 한식들이 한상 가득🍽<br>눈과 입 전부 즐거운 맛집들이 즐비해 있답니다
                             </p>
@@ -194,17 +180,9 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung09.jpg" class="card-img-top" alt="...">
-                        </a>
+                        <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">전통 체험</a>
+                            <h2 class="h2 text-decoration-none text-dark">전통 체험</h2>
                             <p class="card-text">
                                 <br>궁중음식 체험부터 전통놀이 체험까지, <br>타임머신 없이도 과거의 일부가 되는 경험을 할 수 있어요!
                             </p>

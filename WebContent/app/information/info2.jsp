@@ -122,12 +122,6 @@
                     <div class="card h-100">
                         <img src="/assets/img/information/infoHawseong/infoHawseong02.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                                <li class="text-muted text-right"></li>
-                            </ul>
                             <p class="h2 text-decoration-none text-dark">안내도</p>
                             <p class="card-text">
                                 <br>수원 화성의 안내도입니다 
@@ -140,12 +134,6 @@
                     <div class="card h-100">
                         <img src="/assets/img/information/infoHawseong/infoHawseong08.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                                <li class="text-muted text-right"></li>
-                            </ul>
                             <p class="h2 text-decoration-none text-dark">정조正祖</p>
                             <p class="card-text">
                                 <br>정조의 이상인 담긴 꿈의 도시 화성입니다 
@@ -157,12 +145,6 @@
                     <div class="card h-100">
                         <img src="/assets/img/information/infoHawseong/infoHawseong07.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                                <li class="text-muted text-right"></li>
-                            </ul>
                             <p class="h2 text-decoration-none text-dark">화성성역의괘</p>
                             <p class="card-text">
                                 <br>화성 건축의 모든 기록이 남겨져있습니다

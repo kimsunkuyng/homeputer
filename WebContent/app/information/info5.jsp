@@ -150,11 +150,6 @@
                     <div class="card h-100">
                         <img src="../../assets/img/information/infoLotteworld/infoLotteworld07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                            </ul>
                             <h2 class="h2 text-decoration-none text-dark">아쿠아리움</h2>
                             <p class="card-text">
                                 <br>티켓 하나로 바다속 탐험을 갈 수 있어요🌊
@@ -168,11 +163,6 @@
                     <div class="card h-100">
                             <img src="../../assets/img/information/infoLotteworld/infoLotteworld08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                            </ul>
                             <h2 class="h2 text-decoration-none text-dark">부산 롯데월드</h2>
                             <p class="card-text">
                                 <br>롯데월드는 가고 싶은데,
@@ -186,11 +176,6 @@
                     <div class="card h-100">
                             <img src="../../assets/img/information/infoLotteworld/infoLotteworld09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between"> 
-                            	<li>
-                                    <br>
-                                </li>
-                            </ul>
                             <h2 class="h2 text-decoration-none text-dark">서울스카이</h2>
                             <p class="card-text">
                                 <br>감성적인 전시관과 카페,

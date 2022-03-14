@@ -154,11 +154,6 @@
                     <div class="card h-100">
                             <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                            </ul>
                             <h2 class="h2 text-decoration-none text-dark">영어롭다</h2>
                             <p class="card-text">
                                 <br>신선한 연어회와
@@ -173,11 +168,6 @@
                     <div class="card h-100">
                             <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                            </ul>
                             <h2 class="h2 text-decoration-none text-dark">연남귀향</h2>
                             <p class="card-text">
                                 <br>감성돋는 건물 디자인,
@@ -191,11 +181,6 @@
                     <div class="card h-100">
                             <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                            </ul>
                             <h2 class="h2 text-decoration-none text-dark">대중곱창</h2>
                             <p class="card-text">
                                 <br>고즈넉한 저녁밤과 잘 어울리는
