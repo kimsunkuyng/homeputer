@@ -141,15 +141,7 @@
                         <img src="../../assets/img/information/infoEverland/infoEverland09.jpg" class="card-img-top" alt="...">
 
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
-                            </ul>
-
                             <h2 class="h2 text-decoration-none text-dark">자유이용권</h2>
-
                             <p class="card-text">
                                 <br>오전, 오후 구분 없이 하루종일 
                                 <br>이용 가능한 티켓입니다 
@@ -164,15 +156,7 @@
                         <img src="../../assets/img/information/infoEverland/infoEverland10.jpg" class="card-img-top" alt="...">
 
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
-                            </ul>
-
                             <h2 class="h2 text-decoration-none text-dark">연간 이용권</h2>
-
                             <p class="card-text">
                                 <br>에버랜드를 자주 이용하시는 분이라면 주목! 
                                 <br>무려 한번의 결제로💸
@@ -187,15 +171,7 @@
                         <img src="../../assets/img/information/infoEverland/infoEverland11.jpg" class="card-img-top" alt="...">
 
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                                <li class="text-muted text-right">별도 결제 요망</li>
-                            </ul>
-
                             <h2 class="h2 text-decoration-none text-dark">캐리비안베이</h2>
-
                             <p class="card-text">
                                 <br>여름엔 수영이 빠질 수 없죠! 
                                 <br>다양한 워터풀장과 워터슬라이드까지
