@@ -15,18 +15,18 @@ public class CategoryDAO {
 		sqlsession = factory.openSession(true);
 	}
 
-	public List<CategoryDTO> getCategoryList1() {
-		List<CategoryDTO> caList = sqlsession.selectList("Category.getCategoryList1");
+	public List<CategoryDTO> getPlaceList(String locationid) {
+		List<CategoryDTO> caList = sqlsession.selectList("Category.getPlaceList" ,locationid);
 		return caList;
 	}
 
-	public List<CategoryDTO> getCategoryList2() {
-		List<CategoryDTO> caList = sqlsession.selectList("Category.getCategoryList2");
+	public List<CategoryDTO> getFestivalList(String locationid) {
+		List<CategoryDTO> caList = sqlsession.selectList("Category.getFestivalList" ,locationid);
 		return caList;
 	}
 	
-	public List<CategoryDTO> getCategoryList3() {
-		List<CategoryDTO> caList = sqlsession.selectList("Category.getCategoryList3");
+	public List<CategoryDTO> getRestaurantList(String locationid) {
+		List<CategoryDTO> caList = sqlsession.selectList("Category.getRestaurantList" ,locationid);
 		return caList;
 	}
 	

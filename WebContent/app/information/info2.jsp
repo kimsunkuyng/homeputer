@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>   
 <!DOCTYPE html>
 <!--HAWSEONG_VIEW -->
 <html>
@@ -22,11 +24,9 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-
-
-
 <body>
 	<jsp:include page="/header.jsp"/>
+    <c:set var="loginStat" value="${sessionScope.loginStat}"/>
     <!-- Start Banner Hero -->
     <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
@@ -167,7 +167,14 @@
     		<p>전화번호: <a href='tel:031-290-3600'>031-290-3600</a></p>
     		<p>홈페이지 주소 : <a href = "https://www.suwon.go.kr/web/visitsuwon/hs01/hs01-01/pages.do">https://www.suwon.go.kr/web/visitsuwon/hs01/hs01-01/pages.do </a></p>
     		<p>주소: 경기 수원시 장안구 영화동 320-2</p>
-    		<jsp:include page="/app/choice/addChoice.jsp"/>
+			<c:choose>
+				<c:when test="${loginStat == 1}">
+					<a class="btn btn-success btn-lg px-3"href="/Choice/ChoiceAdd.no?informationid=2">찜하기</a>
+				</c:when>
+				<c:otherwise>
+					<p></p>
+				</c:otherwise>
+			</c:choose>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">

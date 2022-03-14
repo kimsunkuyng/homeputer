@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>   
 <!DOCTYPE html>
 <!--GYEONGBOKGUNG_VIEW -->
 <html>
@@ -22,7 +24,7 @@
 </head>
 
 <jsp:include page="/header.jsp"/>
-
+<c:set var="loginStat" value="${sessionScope.loginStat}"/>
 <body>
     <!-- Modal -->
     <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -204,7 +206,14 @@
     		<p>전화번호: <a href='tel:0237003900'>02-3700-3900</a></p>
     		<p>홈페이지 주소 : <a href = "http://www.royalpalace.go.kr/">www.royalpalace.go.kr</a></p>
     		<p>주소: 서울특별시 종로구 사직로 161</p>
-    		<jsp:include page="/app/choice/addChoice.jsp"/>
+    		<c:choose>
+				<c:when test="${loginStat == 1}">
+					<a class="btn btn-success btn-lg px-3"href="/Choice/ChoiceAdd.no?informationid=4">찜하기</a>
+				</c:when>
+				<c:otherwise>
+					<p></p>
+				</c:otherwise>
+			</c:choose>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">

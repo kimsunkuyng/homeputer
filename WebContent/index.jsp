@@ -4,6 +4,9 @@
 <html>
 <head>
 <title>행여나 메인</title>
+<style>
+	
+</style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

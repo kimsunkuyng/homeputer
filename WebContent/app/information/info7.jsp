@@ -3,11 +3,10 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>   
 <!DOCTYPE html>
-<!-- EVERLAND_VIEW -->
 <html>
 <meta charset="UTF-8">
 <head>
-    <title>에버랜드</title>
+    <title>휴애리 자연생활공원</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -56,21 +55,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland01.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoHueree/infoHueree01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland02.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoHueree/infoHueree02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland04.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoHueree/infoHueree03.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -93,31 +92,32 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">환상의 나라 <br> EVERLAND🎡</h1>
+                <h2 class="h2">자연 생활 체험 공원 <br></h2><h1 class="h1">휴애리💐</h1> 
                 <p>
-                    <br>재밌는 놀이기구와 다양한 체험관이 준비되어 있어요 
-                    <br>할로윈 , 크리스마스 , 봄축제까지🌺 
-                    <br>날마다 새로운 놀이동산으로 놀러오세요!
+                    <br>활작 핀 꽃들과 다양한 체험관이 당신을 기다리고 있어요 <br>
+                   	 벚꽃축제🌺 , 감귤체험, 곤충테마관까지🦗<br>
+                   	 달마다 새로운 휴애리로 놀러오세요 !
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="/assets/img/information/infoEverland/infoEverland06.jpg" class="rounded-circle img-fluid border">
-                <h5 class="text-center mt-3 mb-3">다양한 놀이기구🎠</h5>
-                <p class="text-center">화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요</p>
+                <img src="/assets/img/information/infoHueree/infoHueree04.jpg" class="rounded-circle img-fluid border">
+                <h5 class="text-center mt-3 mb-3">다양한 체험 🤸</h5>
+                <p class="text-center">자연과 어울릴 수 있는 체험이 당신을 기다리고 있어요  !<br> 직접 딴 감귤🍊로 청도 만들고 동물들에게 먹이를 주며 자연과 하나되는 싱그러운 경험을 해보세요🌱  </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="/assets/img/information/infoEverland/infoEverland07.jpg" class="rounded-circle img-fluid border">
-                <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존📸</h2>
-                <p class="text-center">인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</p>
+                <img src="/assets/img/information/infoHueree/infoHueree05.jpg" class="rounded-circle img-fluid border">
+                <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존 📸</h2>
+                <p class="text-center">인스타 인생샷을 위한 다양한 포토존들이 준비되어있어요~<br> 시즌마다 바뀌는 꽃들 속에 풍덩 빠져봐요 </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="/assets/img/information/infoEverland/infoEverland08.jpg" class="rounded-circle img-fluid border">
-                <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
-                <p class="text-center">다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</p>
+                <img src="/assets/img/information/infoHueree/infoHueree06.jpg" class="rounded-circle img-fluid border">
+                <h2 class="h5 text-center mt-3 mb-3">시즌별 축제와 공연 🎪</h2>
+                <p class="text-center">시즌별 바뀌는 축제와 공연들🌸 ! <br> 수국 축제, 벚꽃 축제, 거위공연 🦢, 흑돼지 공연 등 다양한 축제화 공연을 즐겨보세요 ! </p>
             </div>
         </div>
+       
     </section>
     <!-- End Categories of The Month -->
 
@@ -127,48 +127,45 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><br>에버랜드 <br>다양하게 즐기기</h1>
+                    <h1 class="h1"><br>휴애리 <br>다양하게 즐기기</h1>
                     <p>
-                        <br>수 많은 혜택과 함께하는 에버랜드! <br> 다양한 이용권과 함께 즐겨보아요<br>
+                        <br>다양한 체험을 할 수 있는 휴애리! <br> 휴애리에서만 즐길 수 있는 싱그러운 체험들을 하루 빨리 체험해보세요!<br>
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="/assets/img/information/infoEverland/infoEverland09.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoHueree/infoHueree07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="h2 text-decoration-none text-dark">자유이용권</h2>
+                            <h2 class="h2 text-decoration-none text-dark">수국 축제</h2>
                             <p class="card-text">
-                                <br>오전, 오후 구분 없이 하루종일 
-                                <br>이용 가능한 티켓입니다 
-                                <br>📢 개장 시간부터 이용하면 폐장시간까지 하루종일 에버랜드에 있을 수 있어요!
+                                <br>3월 25일부터 5월 31일까지 진행하는 수국축제
+                                <br>예쁜 수국들을 볼 수 있는 기회 놓치지 마세요!
+                                <br>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="/assets/img/information/infoEverland/infoEverland10.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoHueree/infoHueree08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="h2 text-decoration-none text-dark">연간 이용권</h2>
+                            <h2 class="h2 text-decoration-none text-dark">동물교감체험</h2>
                             <p class="card-text">
-                                <br>에버랜드를 자주 이용하시는 분이라면 주목! 
-                                <br>무려 한번의 결제로💸
-                                <br>365일 이용이 가능한 이용권이랍니다 
+                                <br>동물을 좋아시는 분이라면 주목! <br> 흑돼지, 토끼, 제주마, 송아지, 염소 등 다양한 동물들에게 직접 먹이를 주며 가까이서 관찰할 수 있는 체험을 해보세요!
+                                
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="/assets/img/information/infoEverland/infoEverland11.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoHueree/infoHueree09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="h2 text-decoration-none text-dark">캐리비안베이</h2>
+                            <h2 class="h2 text-decoration-none text-dark">동물쇼</h2>
                             <p class="card-text">
-                                <br>여름엔 수영이 빠질 수 없죠! 
-                                <br>다양한 워터풀장과 워터슬라이드까지
-                               	<br>알차게 놀 수 있어요🏊
+                                <br>흑돼지 쇼와 거위쇼 궁금하지 않으세요? <br> 지금 휴애리에서 만나보실 수 있습니다!
                             </p>
                         </div>
                     </div>
@@ -187,13 +184,13 @@
     	</div>
     	<!-- 관광지 소개 -->
     	<div class="col-5">
-    		<p>관광지명: 에버랜드 </p>
-    		<p>전화번호: <a href='tel:031-320-5000'>031-320-5000</a></p>
-    		<p>홈페이지 주소 : <a href = "https://www.everland.com/">www.everland.com </a></p>
-    		<p>주소: 경기 용인시 처인구 포곡읍 에버랜드로 199</p>
+    		<p>관광지명: 휴애리 자연생활공원 </p>
+    		<p>전화번호: <a href='tel: 064-732-2114'> 064-732-2114</a></p>
+    		<p>홈페이지 주소 : <a href = "www.hueree.com/">www.hueree.com </a></p>
+    		<p>주소: 제주특별자치도 서귀포시 남원읍 신례동로 256</p>
     		<c:choose>
 				<c:when test="${loginStat == 1}">
-					<a class="btn btn-success btn-lg px-3"href="/Choice/ChoiceAdd.no?informationid=1">찜하기</a>
+					<a class="btn btn-success btn-lg px-3"href="/Choice/ChoiceAdd.no?informationid=7">찜하기</a>
 				</c:when>
 				<c:otherwise>
 					<p></p>
@@ -202,9 +199,10 @@
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">
-    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35913.02517970028!2d127.194931500579!3d37.28819016340244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5403ce34d773%3A0x1fa18ab619238098!2z7JeQ67KE656c65Oc!5e0!3m2!1sko!2skr!4v1641283138335!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.3847106766193!2d126.63160511494895!3d33.30875648081479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350daa99baa39eb5%3A0xa514f1b70f3094a6!2z7Zy07JWg66asIOyekOyXsOyDne2ZnOqzteybkA!5e0!3m2!1sko!2skr!4v1647167944336!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
     </section>
+
     <jsp:include page="/footer.jsp"/>
     
     <!-- Start Script -->
