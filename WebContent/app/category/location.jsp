@@ -41,22 +41,22 @@
 	                            <div class="card rounded-0">
 	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cSeoul.jpg">
 	                            </div>
-<!-- 	                            <div class="card-body"> -->
-<!-- 	                            	<div style="color: black;">서울특별시</div> -->
-<!-- 	                            </div> -->
+	                            <div class="card-body">
+	                            	<div style="color: black;">서울특별시</div>
+	                            </div>
 	                        </div>
                         </a>
                     </div>
                     <div class="col-md-4">
 		               <!-- 클릭시 location_gyeonggi 이동 -->
-                       <a href="/category/categoryList.ca" class="h3 text-decoration-none">
+                       <a href="/category/GyeonggiList.ca" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 		                            <div class="card rounded-0">
 		                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cGyeonggido.jpg">
 		                            </div>
-<!-- 		                            <div class="card-body"> -->
-<!-- 			                            <div style="color: black;">경기도</div> -->
-<!-- 		                            </div> -->
+		                            <div class="card-body">
+			                            <div style="color: black;">경기도</div>
+		                            </div>
 	                        </div>
                     	</a>
                     </div>
@@ -67,9 +67,9 @@
 	                            <div class="card rounded-0">
 	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cGangwondo.jpg">
 	                            </div>
-<!-- 	                            <div class="card-body"> -->
-<!-- 			                    	<div style="color: black;">강원도</div> -->
-<!-- 	                            </div> -->
+	                            <div class="card-body">
+			                    	<div style="color: black;">강원도</div>
+	                            </div>
 	                        </div>
                         </a>
                     </div>
@@ -80,9 +80,9 @@
 	                            <div class="card rounded-0">
 	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cChungcheongdo.jpg">
 	                            </div>
-<!-- 	                            <div class="card-body"> -->
-<!-- 				                  	<div style="color: black;">충청도</div> -->
-<!-- 	                            </div> -->
+	                            <div class="card-body">
+				                  	<div style="color: black;">충청도</div>
+	                            </div>
 	                        </div>
                         </a>
                     </div>
@@ -93,9 +93,9 @@
 	                            <div class="card rounded-0">
 	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cJeollado.jpg">
 	                            </div>
-<!-- 	                            <div class="card-body"> -->
-<!-- 					            	<div style="color: black;">전라도</div> -->
-<!-- 	                            </div> -->
+	                            <div class="card-body">
+					            	<div style="color: black;">전라도</div>
+	                            </div>
 	                        </div>
                         </a>
                     </div>
@@ -106,9 +106,9 @@
 	                            <div class="card rounded-0">
 	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cGyeongsangdo.jpg">
 	                            </div>
-<!-- 	                            <div class="card-body"> -->
-<!-- 						        	<div style="color: black;">경상도</div> -->
-<!-- 	                            </div> -->
+	                            <div class="card-body">
+						        	<div style="color: black;">경상도</div>
+	                            </div>
 	                        </div>
                         </a>
                     </div>
@@ -126,9 +126,9 @@
 	                            <div class="card rounded-0">
 	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cJeju.jpg">
 	                            </div>
-<!--  	                            <div class="card-body">  -->
-<!--  							    	<div style="color: black;">제주도</div>  -->
-<!-- 	                            </div>  -->
+ 	                            <div class="card-body"> 
+ 							    	<div style="color: black;">제주도</div> 
+	                            </div> 
 	                        </div>
                         </a>
                     </div>
