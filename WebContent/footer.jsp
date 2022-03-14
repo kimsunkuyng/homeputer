@@ -39,7 +39,7 @@
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Git Hub</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">깃허브 주소</a></li>
+                        <li><a class="text-decoration-none" href="https://github.com/kimsunkuyng/homeputer.git">GitHub Repository</a></li>
                         <li><a class="text-decoration-none" href="#">개인 블로그 주소</a></li>
                         <li><a class="text-decoration-none" href="document_resume">자기 소개서</a></li>
                     </ul>

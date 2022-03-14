@@ -36,9 +36,45 @@
 </head>
 <body>
 	<jsp:include page="/header.jsp"/>
-	<c:set var="caList" value="${requestScope.caList }"/>
+	<c:set var="caList1" value="${requestScope.caList1 }"/>
+	<c:set var="caList2" value="${requestScope.caList2 }"/>
+	<c:set var="caList3" value="${requestScope.caList3 }"/>
+	<section class="bg-success py-5">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-md-8 text-white">
+                    <h1>경기도</h1>
+                </div>
+	        </div>
+        </div>
+    </section>
 	<!-- Start Section -->
     <div style="color: #59ab6e">
+	    <section class="container py-5">
+	        <div class="row text-center pt-5 pb-3">
+	            <div class="col-lg-6 m-auto">
+	                <h1 class="h1">관광지</h1>
+	            </div>
+	        </div>
+	        <div class="row">
+	        	<c:forEach var="information" items="${caList1 }">
+			        <div class="col-md-6 col-lg-3 pb-5">
+		        		<a href="/app/information/info${information.informationid }.jsp">
+			                <div class="h-100 py-5 services-icon-wap shadow">
+				                <div class="${information.informationImg }">
+				                	<img width="100%" height="70%" src="${information.informationImg }">
+				                    <h2 class="h5 mt-4 text-center">${information.informationname }</h2>
+				                </div>
+				            </div>    
+		        		</a>
+		            </div>
+	        	</c:forEach>
+	        </div>
+	    </section>
+    </div>
+    <!-- End Section -->
+    <!-- Start Section -->
+    <div style="background-color: #deffd7; color: #46a55e;">
 	    <section class="container py-5">
 	        <div class="row text-center pt-5 pb-3">
 	            <div class="col-lg-6 m-auto">
@@ -46,7 +82,7 @@
 	            </div>
 	        </div>
 	        <div class="row">
-	        	<c:forEach var="information" items="${caList }">
+	        	<c:forEach var="information" items="${caList2 }">
 			        <div class="col-md-6 col-lg-3 pb-5">
 		        		<a href="/app/information/info1.jsp">
 			                <div class="h-100 py-5 services-icon-wap shadow">
@@ -58,82 +94,6 @@
 		        		</a>
 		            </div>
 	        	</c:forEach>
-	            <div class="col-md-6 col-lg-3 pb-5">
-	            	<a href="/app/information/info2.jsp">
-		                <div class="h-100 py-5 services-icon-wap shadow">
-		                    <div class="h1 text-success text-center">
-								<i class="fas fa-exchange-alt"></i>
-							</div>
-		                    <h2 class="h5 mt-4 text-center">Shipping & Return</h2>
-		                </div>
-		            </a>    
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-percent"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Promotion</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-user"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">24 Hours Service</h2>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
-    </div>
-    <!-- End Section -->
-    <!-- Start Section -->
-    <div style="background-color: #deffd7; color: #46a55e;">
-	    <section class="container py-5">
-	        <div class="row text-center pt-5 pb-3">
-	            <div class="col-lg-6 m-auto">
-	                <h1 class="h1">관광지</h1>
-	            </div>
-	        </div>
-	        <div class="row">
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-truck fa-lg"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Delivery Services</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fas fa-exchange-alt"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Shipping & Return</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-percent"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Promotion</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-user"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">24 Hours Service</h2>
-	                </div>
-	            </div>
 	        </div>
 	    </section>
     </div>
@@ -143,94 +103,22 @@
 	    <section class="container py-5">
 	        <div class="row text-center pt-5 pb-3">
 	            <div class="col-lg-6 m-auto">
-	                <h1 class="h1">축제</h1>
-	            </div>
-	        </div>
-	        <div class="row">
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-truck fa-lg"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Delivery Services</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fas fa-exchange-alt"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Shipping & Return</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-percent"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Promotion</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-user"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">24 Hours Service</h2>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
-    </div>
-    <!-- End Section -->
-	<!-- Start Section -->
-    <div style="background-color: #59ab6e; color: white;">
-	    <section class="container py-5">
-	        <div class="row text-center pt-5 pb-3">
-	            <div class="col-lg-6 m-auto">
 	                <h1 class="h1">맛집</h1>
 	            </div>
 	        </div>
 	        <div class="row">
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-truck fa-lg"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Delivery Services</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fas fa-exchange-alt"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Shipping & Return</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-percent"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">Promotion</h2>
-	                </div>
-	            </div>
-	
-	            <div class="col-md-6 col-lg-3 pb-5">
-	                <div class="h-100 py-5 services-icon-wap shadow">
-	                    <div class="h1 text-success text-center">
-							<i class="fa fa-user"></i>
-						</div>
-	                    <h2 class="h5 mt-4 text-center">24 Hours Service</h2>
-	                </div>
-	            </div>
+	            <c:forEach var="information" items="${caList3 }">
+			        <div class="col-md-6 col-lg-3 pb-5">
+		        		<a href="/app/information/info1.jsp">
+			                <div class="h-100 py-5 services-icon-wap shadow">
+				                <div class="${information.informationImg }">
+				                	<img width="100%" height="70%" src="${information.informationImg }">
+				                    <h2 class="h5 mt-4 text-center">${information.informationname }</h2>
+				                </div>
+				            </div>    
+		        		</a>
+		            </div>
+	        	</c:forEach>
 	        </div>
 	    </section>
     </div>
@@ -244,6 +132,4 @@
     <script src="/assets/js/custom.js"></script>
     <!-- End Script -->
 </body>
-
-
 </html>
