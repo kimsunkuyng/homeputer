@@ -101,12 +101,9 @@
                 </p>
             </div>
         </div>
-        <div>
-        	<a href="/Choice/ChoiceAdd.no?informationid=1">찜하기</a>
-        </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung04.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoGyeongbokgung/infoGyeongbokgung04.jpg" class="rounded-circle img-fluid border">
                 <h5 class="text-center mt-3 mb-3">
                 	밤하늘에서 더욱<br>
                 	 더 빛나는 경복궁🌝
@@ -117,7 +114,7 @@
                 </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung05.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoGyeongbokgung/infoGyeongbokgung05.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">왕의 길 산책⛹️‍♂️</h2>
                 <p class="text-center">
 					일반인은 출입조차 불가했다는 왕의 길!
@@ -125,7 +122,7 @@
 				</p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung06.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoGyeongbokgung/infoGyeongbokgung06.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">
              		가이드와 함께라면
              		<br>역사도 어렵지 않아👩‍🏫
@@ -155,7 +152,7 @@
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung07.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/information/infoGyeongbokgung/infoGyeongbokgung07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="h2 text-decoration-none text-dark">한복 대여 서비스 </h2>
                             <p class="card-text">
@@ -169,7 +166,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung08.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/information/infoGyeongbokgung/infoGyeongbokgung08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="h2 text-decoration-none text-dark">맛있는 먹거리</h2>
                             <p class="card-text">
@@ -180,7 +177,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="../../assets/img/information/infoGyeongbokgung/infoGyeongbokgung09.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/information/infoGyeongbokgung/infoGyeongbokgung09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="h2 text-decoration-none text-dark">전통 체험</h2>
                             <p class="card-text">
@@ -207,6 +204,7 @@
     		<p>전화번호: <a href='tel:0237003900'>02-3700-3900</a></p>
     		<p>홈페이지 주소 : <a href = "http://www.royalpalace.go.kr/">www.royalpalace.go.kr</a></p>
     		<p>주소: 서울특별시 종로구 사직로 161</p>
+    		<jsp:include page="/app/choice/addChoice.jsp"/>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">

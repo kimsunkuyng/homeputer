@@ -20,9 +20,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
 </head>
-
 <jsp:include page="/header.jsp"/>
-
 <body>
     <!-- Modal -->
     <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -54,21 +52,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoLotteworld01.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoLotteworld/infoLotteworld01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoLotteworld02.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoLotteworld/infoLotteworld02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoLotteworld/infoLotteworld03.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoLotteworld/infoLotteworld03.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -99,12 +97,9 @@
                 </p>
             </div>
         </div>
-        <div>
-        	<a href="/Choice/ChoiceAdd.no?informationid=1">찜하기</a>
-        </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-               <img src="../../assets/img/information/infoLotteworld/infoLotteworld04.jpg" class="rounded-circle img-fluid border">
+               <img src="/assets/img/information/infoLotteworld/infoLotteworld04.jpg" class="rounded-circle img-fluid border">
                 <h5 class="text-center mt-3 mb-3">고퀄리티의 컨셉 아트들🧛</h5>
                 <p class="text-center">
                 	좀비들을 피해 달아나는<br>
@@ -113,7 +108,7 @@
                 </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoLotteworld/infoLotteworld05.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoLotteworld/infoLotteworld05.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">실내/야외 놀이기구🎢</h2>
                 <p class="text-center">
                		 날씨와 상관없이 
@@ -122,7 +117,7 @@
                 </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-               <img src="../../assets/img/information/infoLotteworld/infoLotteworld06.jpg" class="rounded-circle img-fluid border">
+               <img src="/assets/img/information/infoLotteworld/infoLotteworld06.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
                 <p class="text-center">
                		 다양한 퍼레이드와 함께하는 각종 축제들!
@@ -148,7 +143,7 @@
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="../../assets/img/information/infoLotteworld/infoLotteworld07.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/information/infoLotteworld/infoLotteworld07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="h2 text-decoration-none text-dark">아쿠아리움</h2>
                             <p class="card-text">
@@ -161,7 +156,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoLotteworld/infoLotteworld08.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoLotteworld/infoLotteworld08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="h2 text-decoration-none text-dark">부산 롯데월드</h2>
                             <p class="card-text">
@@ -174,7 +169,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoLotteworld/infoLotteworld09.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoLotteworld/infoLotteworld09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="h2 text-decoration-none text-dark">서울스카이</h2>
                             <p class="card-text">
@@ -203,6 +198,7 @@
     		<p>전화번호: <a href='tel:1661-2000'>1661-2000</a></p>
     		<p>홈페이지 주소 : <a href = "http://www.lotteworld.com/gate.html">lotteworld.com</a></p>
     		<p>주소: 서울특별시 송파구 올림픽로 240</p>
+    		<jsp:include page="/app/choice/addChoice.jsp"/>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">

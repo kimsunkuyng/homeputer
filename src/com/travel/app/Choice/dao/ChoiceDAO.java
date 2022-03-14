@@ -1,5 +1,6 @@
 package com.travel.app.Choice.dao;
 
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
@@ -23,16 +24,22 @@ public class ChoiceDAO {
 		return choiceList;
 	}
 
-	public boolean addChoice(String user_index , String informationid) {
-		boolean result = false;
-		if(sqlsession.insert("Choice.addChoice" , user_index) == 1) {
-//			System.out.print("addChoice_Succeed!");
-			result = true;
-		}else {
-//			System.out.print("addChoice_Fail..");
-		}
-		return result;
+	public void addChoice(String user_index , String informationid) {
+		HashMap<String, String> datas = new HashMap<String, String>();
+		datas.put("user_index", user_index);
+		datas.put("informationid", informationid);
+		sqlsession.insert("Choice.addChoice" , datas);
 	}
+//	public boolean addChoice(String user_index , String informationid) {
+//		boolean result = false;
+//		if(sqlsession.insert("Choice.addChoice" , user_index) == 1) {
+////			System.out.print("addChoice_Succeed!");
+//			result = true;
+//		}else {
+////			System.out.print("addChoice_Fail..");
+//		}
+//		return result;
+//	}
 	public boolean deleteChoice(String choiceid){
 		boolean result = false;
 		if(sqlsession.delete("Choice.deleteChoice",choiceid)==1) {
