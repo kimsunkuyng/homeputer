@@ -4,18 +4,19 @@ import java.util.Date;
 
 public class PostDTO {
 
-	int postId;
+	String postId;
 	String postTitle;
 	String postContent;
 	Date postDate;
-	int postAvailable;
-	int userIndex;
+	String postAvailable;
+	String postCategory;
+	String userIndex;
 	String user_name;
 	
-	public int getPostId() {
+	public String getPostId() {
 		return postId;
 	}
-	public void setPostId(int postId) {
+	public void setPostId(String postId) {
 		this.postId = postId;
 	}
 	public String getPostTitle() {
@@ -36,25 +37,28 @@ public class PostDTO {
 	public void setPostDate(Date postDate) {
 		this.postDate = postDate;
 	}
-	public int getPostAvailable() {
+	public String getPostAvailable() {
 		return postAvailable;
 	}
-	public void setPostAvailable(int postAvailable) {
+	public void setPostAvailable(String postAvailable) {
 		this.postAvailable = postAvailable;
 	}
-	public int getUserIndex() {
+	public String getPostCategory() {
+		return postCategory;
+	}
+	public void setPostCategory(String postCategory) {
+		this.postCategory = postCategory;
+	}
+	public String getUserIndex() {
 		return userIndex;
 	}
-	public void setUserIndex(int userIndex) {
+	public void setUserIndex(String userIndex) {
 		this.userIndex = userIndex;
 	}
 	public String getUser_name() {
 		return user_name;
 	}
-	public void setUser_Name(String user_name) {
+	public void setUser_name(String user_name) {
 		this.user_name = user_name;
 	}
-	
-	
-		
 }

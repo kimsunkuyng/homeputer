@@ -41,14 +41,14 @@ CREATE TABLE choice (
 );
 
 CREATE TABLE post (
-   postId number(5) PRIMARY KEY,
-   postTitle varchar2(100) NOT NULL,
-   postContent varchar2(4000) NOT NULL,
-   postDate DATE NOT NULL,
-   postAvaillble number(5) NOT NULL,
-   postCategory number(5) NOT NULL,
-   userIndex number(5),
-   CONSTRAINTS fk_post_userIndex FOREIGN KEY (userIndex) REFERENCES user_info(user_index)   
+	postId number(5) PRIMARY KEY,
+	postTitle varchar2(100) NOT NULL,
+	postContent varchar2(4000) NOT NULL,
+	postDate DATE NOT NULL,
+	postAvaillble number(5) NOT NULL,
+	postCategory number(5) NOT NULL,
+	userIndex number(5),
+	CONSTRAINTS fk_post_userIndex FOREIGN KEY (userIndex) REFERENCES user_info(user_index)	
 );
 
 -----------------------------------------create sqeunce-----------------------------------------
