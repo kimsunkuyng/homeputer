@@ -21,13 +21,7 @@
 </head>
 <body>
  
- 	<!-- header.jsp 경로 오류 -->
  	<jsp:include page="/header.jsp"/>
-
-    
-
-
-
     <!-- Start Content -->
     <div class="container py-5">
         <div class="row">
@@ -36,7 +30,7 @@
                     <div class="col-md-4">
 	                    <!-- 클릭시 location_seoul -->
 	                    <!-- 클릭시 이벤트 지역별 영역 전부 들어가게 -->
-                        <a href="category_seoul.jsp" class="h3 text-decoration-none">
+                        <a href="/category/SeoulList.ca" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 	                            <div class="card rounded-0">
 	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cSeoul.jpg">
@@ -114,14 +108,14 @@
                     </div>
                     <div class="col-md-4">
                     	<!-- 클릭시 location_jeju 이동 -->
-                        <a href="category_jeju.jsp" class="h3 text-decoration-none">
+                        <a href="/category/JeollaList.ca" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0" style="border: 0px;">
 	                        </div>
                         </a>
                     </div>
                     <div class="col-md-4">
                     	<!-- 클릭시 location_jeju 이동 -->
-                        <a href="category_jeju.jsp" class="h3 text-decoration-none">
+                        <a href="/category/JejuList.ca" class="h3 text-decoration-none">
 	                        <div class="card mb-4 product-wap rounded-0">
 	                            <div class="card rounded-0">
 	                                <img class="card-img rounded-0 img-fluid" src="/assets/img/location/cJeju.jpg">

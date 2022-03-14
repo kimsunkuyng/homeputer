@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>categoryGyeonggi</title>
+<title>categoryJeju</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -38,7 +38,7 @@
         <div class="container">
             <div class="row align-items-center py-5">
                 <div class="col-md-8 text-white">
-                    <h1 style="font-size: 48px;">경기도</h1>
+                    <h1 style="font-size: 48px;">제주도</h1>
                 </div>
 	        </div>
         </div>
@@ -91,7 +91,7 @@
 					<c:otherwise>
 			        	<c:forEach var="information" items="${festival }">
 					        <div class="col-md-6 col-lg-3 pb-5">
-				        		<a href="/app/information/info1.jsp">
+				        		<a href="/app/information/info${information.informationid }.jsp">
 					                <div class="h-100 py-5 services-icon-wap shadow">
 						                <div class="${information.informationImg }">
 						                	<img width="100%" height="70%" src="${information.informationImg }">
@@ -123,7 +123,7 @@
 					<c:otherwise>
 			            <c:forEach var="information" items="${restaurant }">
 					        <div class="col-md-6 col-lg-3 pb-5">
-				        		<a href="/app/information/info1.jsp">
+				        		<a href="/app/information/info${information.informationid }.jsp">
 					                <div class="h-100 py-5 services-icon-wap shadow">
 						                <div class="${information.informationImg }">
 						                	<img width="100%" height="70%" src="${information.informationImg }">

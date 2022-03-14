@@ -1,34 +1,34 @@
 -----------------------------------------create table-----------------------------------------
 
 CREATE TABLE user_info (
-	user_index number(5) PRIMARY KEY,
-	user_id varchar2(300) UNIQUE NOT NULL,
-	user_pw	varchar2(300) NOT NULL,
-	user_name varchar2(300) NOT NULL,
-	user_birth varchar2(300)  NOT NULL,
-	user_tell varchar2(300) UNIQUE NOT NULL,
-	user_email varchar2(300) UNIQUE NOT NULL,
-	user_activate char(1) NOT NULL
+   user_index number(5) PRIMARY KEY,
+   user_id varchar2(300) UNIQUE NOT NULL,
+   user_pw   varchar2(300) NOT NULL,
+   user_name varchar2(300) NOT NULL,
+   user_birth varchar2(300)  NOT NULL,
+   user_tell varchar2(300) UNIQUE NOT NULL,
+   user_email varchar2(300) UNIQUE NOT NULL,
+   user_activate char(1) NOT NULL
 );
 
 CREATE TABLE location (
-	locationId number(5) PRIMARY KEY,
-	locationName varchar2(100) NOT NULL
+   locationId number(5) PRIMARY KEY,
+   locationName varchar2(100) NOT NULL
 );
 
 CREATE TABLE category (
-	categoryId number(5) PRIMARY KEY,
-	categoryName varchar2(100) NOT NULL
+   categoryId number(5) PRIMARY KEY,
+   categoryName varchar2(100) NOT NULL
 );
 
 CREATE TABLE information (
-	informationId number(5) PRIMARY KEY,
-	informationName varchar(100) NOT NULL,
-	informationImg varchar2(100),
-	locationId number(5),
-	categoryId number(5),
-	CONSTRAINTS fk_information_location_id FOREIGN KEY (locationId) REFERENCES location(locationId),
-	CONSTRAINTS fk_information_category_id FOREIGN KEY (categoryId) REFERENCES category(categoryId)
+   informationId number(5) PRIMARY KEY,
+   informationName varchar(100) NOT NULL,
+   informationImg varchar2(100),
+   locationId number(5),
+   categoryId number(5),
+   CONSTRAINTS fk_information_location_id FOREIGN KEY (locationId) REFERENCES location(locationId),
+   CONSTRAINTS fk_information_category_id FOREIGN KEY (categoryId) REFERENCES category(categoryId)
 );
 
 
@@ -41,13 +41,14 @@ CREATE TABLE choice (
 );
 
 CREATE TABLE post (
-	postId number(5) PRIMARY KEY,
-	postTitle varchar2(100) NOT NULL,
-	postContent varchar2(4000) NOT NULL,
-	postDate DATE NOT NULL,
-	postAvaillble number(5) NOT NULL,
-	userIndex number(5),
-	CONSTRAINTS fk_post_userIndex FOREIGN KEY (userIndex) REFERENCES user_info(user_index)	
+   postId number(5) PRIMARY KEY,
+   postTitle varchar2(100) NOT NULL,
+   postContent varchar2(4000) NOT NULL,
+   postDate DATE NOT NULL,
+   postAvaillble number(5) NOT NULL,
+   postCategory number(5) NOT NULL,
+   userIndex number(5),
+   CONSTRAINTS fk_post_userIndex FOREIGN KEY (userIndex) REFERENCES user_info(user_index)   
 );
 
 -----------------------------------------create sqeunce-----------------------------------------
@@ -82,20 +83,32 @@ VALUES (7, '제주도');
 
 --post
 INSERT INTO POST VALUES 
-(seq_post_postId.nextval, '테스트', '테스트', sysdate, 0, 1);
+(seq_post_postId.nextval, '테스트', '테스트', sysdate, 0, 1, 1);
 INSERT INTO POST VALUES 
-(seq_post_postId.nextval, '테스트', '테스트', sysdate, 1, 1);
+(seq_post_postId.nextval, '테스트', '테스트', sysdate, 1, 1, 1);
+--DELETE FROM POST p  ;
  
+
 --category 
 INSERT INTO category VALUES (1, '관광지');
 INSERT INTO category VALUES (2, '축제');
 INSERT INTO category VALUES (3, '맛집');
 --information
-INSERT INTO INFORMATION VALUES (1, '에버랜드', '/assets/img/information/infoEverland/infoEverland02.jpg' , 1 , 1);
-INSERT INTO INFORMATION VALUES (2, '수원화성', '/assets/img/information/infoHawseong/infoHawseong01.jpeg' , 1 , 1);
+INSERT INTO INFORMATION VALUES (1, '에버랜드', '/assets/img/information/infoEverland/infoEverland01.jpg' , 2 , 1);
+INSERT INTO INFORMATION VALUES (2, '수원화성', '/assets/img/information/infoHawseong/infoHawseong01.jpeg' , 2 , 1);
+INSERT INTO INFORMATION VALUES (4, '경복궁', '/assets/img/information/infoGyeongbokgung/infoGyeongbokgung01.jpg' , 1 , 1);
+INSERT INTO INFORMATION VALUES (5, '롯데월드', '/assets/img/information/infoLotteworld/infoLotteworld01.jpg' , 1 , 1);
+INSERT INTO INFORMATION VALUES (6, '연남동맛집거리', '/assets/img/information/infoYeonnamdong/infoYeonnamdong01.jpg' , 1 , 3);
+INSERT INTO INFORMATION VALUES (7, '후에리', '/assets/img/information/infoHueree/infoHueree01.jpg' , 7 , 1);
+INSERT INTO INFORMATION VALUES (8, '조천스위스마을', '/assets/img/information/infoJochenswiss/infoJochenswiss01.jpg' , 7 , 1);
+INSERT INTO INFORMATION VALUES (9, '카페공장소', '/assets/img/information/infoCafegongzak/infoCafegongzak01.jpg' , 7 , 3);
+--DELETE FROM INFORMATION  ;
 
 --choice
 INSERT INTO CHOICE VALUES (choice_seq.nextval , 1 , 1);
+--DELETE FROM CHOICE ;
 
 -- SELECT 
 SELECT * FROM INFORMATION i WHERE CATEGORYID = 1 ;
+SELECT * FROM POST p ;
+SELECT b.*, u.USER_NAME FROM (SELECT * FROM (SELECT rownum r, p.* FROM (SELECT * FROM POST WHERE POSTAVAILLBLE = 0 ORDER BY POSTID DESC) p) n WHERE n.r BETWEEN 1 AND 10) b INNER JOIN USER_INFO u ON b.USERINDEX = u.USER_INDEX WHERE b.postcategory = 1;

@@ -3,11 +3,10 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>   
 <!DOCTYPE html>
-<!-- EVERLAND_VIEW -->
 <html>
 <meta charset="UTF-8">
 <head>
-    <title>에버랜드</title>
+    <title>조천 스위스 마을</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -42,9 +41,6 @@
             </form>
         </div>
     </div>
-
-
-
     <!-- Start Banner Hero -->
     <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
@@ -56,21 +52,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland01.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoJochenswiss/infoJochenswiss01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland02.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoJochenswiss/infoJochenswiss02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland04.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoJochenswiss/infoJochenswiss03.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -93,31 +89,31 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">환상의 나라 <br> EVERLAND🎡</h1>
+                <h2 class="h2">제주도에서 이국적인 분위기를 느낄 수 있는 곳<br></h2><h1 class="h1">조천 스위스 마을 🌂</h1> 
                 <p>
-                    <br>재밌는 놀이기구와 다양한 체험관이 준비되어 있어요 
-                    <br>할로윈 , 크리스마스 , 봄축제까지🌺 
-                    <br>날마다 새로운 놀이동산으로 놀러오세요!
+                    <br>'동행'이라는 주제로 일군, 자연 그대로를 나타내는 색이 있는 공간이자,<br>
+            	풍경이 있는 건축 단지 조천 스위스 마을에 오신걸 환영합니다!   
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="/assets/img/information/infoEverland/infoEverland06.jpg" class="rounded-circle img-fluid border">
-                <h5 class="text-center mt-3 mb-3">다양한 놀이기구🎠</h5>
-                <p class="text-center">화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요</p>
+                <img src="/assets/img/information/infoJochenswiss/infoJochenswiss04.jpg" class="rounded-circle img-fluid border">
+                <h5 class="text-center mt-3 mb-3">이국적인 건물 🏰</h5>
+                <p class="text-center">제주도에서 느낄 수 있는 이국적인 분위기! <br> 빨강, 노랑으로 이루어진 건물들과 시계탑이 있는 르카르노 광장의 조화</p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="/assets/img/information/infoEverland/infoEverland07.jpg" class="rounded-circle img-fluid border">
-                <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존📸</h2>
-                <p class="text-center">인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</p>
+                <img src="/assets/img/information/infoJochenswiss/infoJochenswiss05.jpg" class="rounded-circle img-fluid border">
+                <h2 class="h5 text-center mt-3 mb-3">예쁜 소품샵들 💎</h2>
+                <p class="text-center">조천 스위스 마을만의 예쁜 기념품들과 소품들!<br>아기자기한 소품들이 보는 것만으로도 당신을 힐링 시켜줄거에요</p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="/assets/img/information/infoEverland/infoEverland08.jpg" class="rounded-circle img-fluid border">
-                <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
-                <p class="text-center">다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</p>
+                <img src="/assets/img/information/infoJochenswiss/infoJochenswiss06.jpg" class="rounded-circle img-fluid border">
+                <h2 class="h5 text-center mt-3 mb-3">아기자기한 카페들 ☕</h2>
+                <p class="text-center">구경하다가 허기가 질 때, <br>들어가면 후회하지 않을 카페들이 주르륵! </p>
             </div>
         </div>
+       
     </section>
     <!-- End Categories of The Month -->
 
@@ -127,48 +123,45 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><br>에버랜드 <br>다양하게 즐기기</h1>
+                    <h1 class="h1"><br>조천 스위스 마을 <br>다양하게 즐기기</h1>
                     <p>
-                        <br>수 많은 혜택과 함께하는 에버랜드! <br> 다양한 이용권과 함께 즐겨보아요<br>
+                        <br>알록달록 아기자기 조천 스위스 마을! <br> 더 즐길 수 있는 방법은 없을까요?<br>
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="/assets/img/information/infoEverland/infoEverland09.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoJochenswiss/infoJochenswiss07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="h2 text-decoration-none text-dark">자유이용권</h2>
+                            <h2 class="h2 text-decoration-none text-dark">객실 이용 가능</h2>
                             <p class="card-text">
-                                <br>오전, 오후 구분 없이 하루종일 
-                                <br>이용 가능한 티켓입니다 
-                                <br>📢 개장 시간부터 이용하면 폐장시간까지 하루종일 에버랜드에 있을 수 있어요!
+                                <br> 구경하다가 지칠 때 언제든 쉴 수 있도록
+                                <br>객실 이용 가능하게 되어 있답니다 🛌
+                                <br> 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="/assets/img/information/infoEverland/infoEverland10.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/information/infoJochenswiss/infoJochenswiss08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="h2 text-decoration-none text-dark">연간 이용권</h2>
+                            <h2 class="h2 text-decoration-none text-dark">감성 가득 벽화</h2>
                             <p class="card-text">
-                                <br>에버랜드를 자주 이용하시는 분이라면 주목! 
-                                <br>무려 한번의 결제로💸
-                                <br>365일 이용이 가능한 이용권이랍니다 
+                                <br> 걷다가 숨어있는 그림을 찾는 재미! 🎨 <br> 한번 찾아보실래요?
+                                
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="/assets/img/information/infoEverland/infoEverland11.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoJochenswiss/infoJochenswiss09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="h2 text-decoration-none text-dark">캐리비안베이</h2>
+                            <h2 class="h2 text-decoration-none text-dark">다양한 주변 관광지</h2>
                             <p class="card-text">
-                                <br>여름엔 수영이 빠질 수 없죠! 
-                                <br>다양한 워터풀장과 워터슬라이드까지
-                               	<br>알차게 놀 수 있어요🏊
+                                <br>주변에 관광지가 많아서 여행하기 딱 좋은 루트! <br> 그 중에서도 에코랜드는 꼭 들리시길 바랍니다!
                             </p>
                         </div>
                     </div>
@@ -187,13 +180,13 @@
     	</div>
     	<!-- 관광지 소개 -->
     	<div class="col-5">
-    		<p>관광지명: 에버랜드 </p>
-    		<p>전화번호: <a href='tel:031-320-5000'>031-320-5000</a></p>
-    		<p>홈페이지 주소 : <a href = "https://www.everland.com/">www.everland.com </a></p>
-    		<p>주소: 경기 용인시 처인구 포곡읍 에버랜드로 199</p>
-    		<c:choose>
+    		<p>관광지명: 조천 스위스 마을 </p>
+    		<p>전화번호: <a href='tel: 064-744-6060'> 064-744-6060</a></p>
+    		<p>홈페이지 주소 : <a href = "www.jejuswiss.com/">www.jejuswiss.com</a></p>
+    		<p>주소: 제주특별자치도 제주시 조천읍 함와로 566-27</p>
+   			<c:choose>
 				<c:when test="${loginStat == 1}">
-					<a class="btn btn-success btn-lg px-3"href="/Choice/ChoiceAdd.no?informationid=1">찜하기</a>
+					<a class="btn btn-success btn-lg px-3"href="/Choice/ChoiceAdd.no?informationid=8">찜하기</a>
 				</c:when>
 				<c:otherwise>
 					<p></p>
@@ -202,9 +195,10 @@
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">
-    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35913.02517970028!2d127.194931500579!3d37.28819016340244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5403ce34d773%3A0x1fa18ab619238098!2z7JeQ67KE656c65Oc!5e0!3m2!1sko!2skr!4v1641283138335!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.2744304668977!2d126.67456721515643!3d33.49423648076145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d1c8af8223def%3A0x2413c8d4aa85f221!2z7KCc7KO87KGw7LKcIOyKpOychOyKpOuniOydhA!5e0!3m2!1sko!2skr!4v1647186362496!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>		
 		</div>
     </section>
+
     <jsp:include page="/footer.jsp"/>
     
     <!-- Start Script -->

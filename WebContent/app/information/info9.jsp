@@ -1,13 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>   
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>  
 <!DOCTYPE html>
-<!-- EVERLAND_VIEW -->
 <html>
 <meta charset="UTF-8">
 <head>
-    <title>에버랜드</title>
+    <title>카페공작소</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,6 +24,7 @@
 
 <jsp:include page="/header.jsp"/>
 <c:set var="loginStat" value="${sessionScope.loginStat}"/>
+
 <body>
     <!-- Modal -->
     <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -56,21 +56,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland01.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoCafegongzak/infoCafegongzak01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland02.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoCafegongzak/infoCafegongzak02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="/assets/img/information/infoEverland/infoEverland04.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoCafegongzak/infoCafegongzak03.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -93,31 +93,31 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">환상의 나라 <br> EVERLAND🎡</h1>
+                <h2 class="h2">제주도 감성을 느낄 수 있는 곳<br></h2><h1 class="h1">카페공작소☕</h1> 
                 <p>
-                    <br>재밌는 놀이기구와 다양한 체험관이 준비되어 있어요 
-                    <br>할로윈 , 크리스마스 , 봄축제까지🌺 
-                    <br>날마다 새로운 놀이동산으로 놀러오세요!
+                    <br>바다를 보며 카페 공작소와 함께 <br>
+                   	 제주도의 감성을 깊이 느껴보세요!<br>
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="/assets/img/information/infoEverland/infoEverland06.jpg" class="rounded-circle img-fluid border">
-                <h5 class="text-center mt-3 mb-3">다양한 놀이기구🎠</h5>
-                <p class="text-center">화려하게 빛나는 회전목마와 스릴 넘치는 놀이기구들! <br> 자유이용권으로 이 모든 것을 공짜로 즐겨요</p>
+                <img src="/assets/img/information/infoCafegongzak/infoCafegongzak04.jpg" class="rounded-circle img-fluid border">
+                <h5 class="text-center mt-3 mb-3">다양한 메뉴 📋</h5>
+                <p class="text-center">다양한 메뉴들이 준비되어 있어요!<br> 🧁음료, 케이크, 쿠기 등 취향에 맞게 골라보세요!  </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="/assets/img/information/infoEverland/infoEverland07.jpg" class="rounded-circle img-fluid border">
-                <h2 class="h5 text-center mt-3 mb-3">인생샷 포토존📸</h2>
-                <p class="text-center">인스타 인생샷을 위한 다양한 포토존들~ <br> 시즌마다 바뀌는 컨셉들 속에 빠져봐요</p>
+                <img src="/assets/img/information/infoCafegongzak/infoCafegongzak05.jpg" class="rounded-circle img-fluid border">
+                <h2 class="h5 text-center mt-3 mb-3">확 트인 뷰 👀 </h2>
+                <p class="text-center">커피향과 어우러진 바다의 뷰<br> 거기에 더해진 바다의 시원함까지🌊! </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="/assets/img/information/infoEverland/infoEverland08.jpg" class="rounded-circle img-fluid border">
-                <h2 class="h5 text-center mt-3 mb-3">시즌별 축제🎪</h2>
-                <p class="text-center">다양한 퍼레이드와 함께하는 각종 축제들! <br> 공주님과 왕자님을 만날 준비가 되었나요?</p>
+                <img src="/assets/img/information/infoCafegongzak/infoCafegongzak06.jpg" class="rounded-circle img-fluid border">
+                <h2 class="h5 text-center mt-3 mb-3">제주도의 감성 🪔</h2>
+                <p class="text-center">엽서, 캔들 등 다양한 기념품과  <br>인테리어로 제주도의 감성을 느낄 수 있어요!</p>
             </div>
         </div>
+       
     </section>
     <!-- End Categories of The Month -->
 
@@ -127,48 +127,44 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><br>에버랜드 <br>다양하게 즐기기</h1>
+                    <h1 class="h1"><br>카페공작소 <br>다양하게 즐기기</h1>
                     <p>
-                        <br>수 많은 혜택과 함께하는 에버랜드! <br> 다양한 이용권과 함께 즐겨보아요<br>
+                        <br>바다의 싱그러움, 제주도의 감성, 커피가 주는 여유로움 <br> 이 모든 걸 카페 공작소와 함께!<br>
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="/assets/img/information/infoEverland/infoEverland09.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoCafegongzak/infoCafegongzak07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="h2 text-decoration-none text-dark">자유이용권</h2>
+                            <h2 class="h2 text-decoration-none text-dark">맛 보장 메뉴</h2>
                             <p class="card-text">
-                                <br>오전, 오후 구분 없이 하루종일 
-                                <br>이용 가능한 티켓입니다 
-                                <br>📢 개장 시간부터 이용하면 폐장시간까지 하루종일 에버랜드에 있을 수 있어요!
+                                <br>맛 보장! 퀄리티 보장!
+                                <br>마음 놓고 먹고 싶은거 시키기! 
+                                <br>ps.당근 케이크는 꼭 드셔보세요 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="/assets/img/information/infoEverland/infoEverland10.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoCafegongzak/infoCafegongzak08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="h2 text-decoration-none text-dark">연간 이용권</h2>
+                            <h2 class="h2 text-decoration-none text-dark">감성가득 기념품</h2>
                             <p class="card-text">
-                                <br>에버랜드를 자주 이용하시는 분이라면 주목! 
-                                <br>무려 한번의 결제로💸
-                                <br>365일 이용이 가능한 이용권이랍니다 
+                                <br>여행오면 기념품 필수! <br> 카페공작소에서만 구매할 수 있는 기념품 겟해가세요!
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="/assets/img/information/infoEverland/infoEverland11.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoCafegongzak/infoCafegongzak09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="h2 text-decoration-none text-dark">캐리비안베이</h2>
+                            <h2 class="h2 text-decoration-none text-dark">각양각색 포토존</h2>
                             <p class="card-text">
-                                <br>여름엔 수영이 빠질 수 없죠! 
-                                <br>다양한 워터풀장과 워터슬라이드까지
-                               	<br>알차게 놀 수 있어요🏊
+                                <br>창문외에 엽서로도, 소품으로도 <br> 다양하고 특이한 인생샷들 건져가세요!
                             </p>
                         </div>
                     </div>
@@ -187,13 +183,13 @@
     	</div>
     	<!-- 관광지 소개 -->
     	<div class="col-5">
-    		<p>관광지명: 에버랜드 </p>
-    		<p>전화번호: <a href='tel:031-320-5000'>031-320-5000</a></p>
-    		<p>홈페이지 주소 : <a href = "https://www.everland.com/">www.everland.com </a></p>
-    		<p>주소: 경기 용인시 처인구 포곡읍 에버랜드로 199</p>
-    		<c:choose>
+    		<p>관광지명: 카페공장소 </p>
+    		<p>전화번호: <a href='tel: 070-1234-0752'> 070-1234-0752</a></p>
+    		<p>홈페이지 주소 : <a href = "https://www.naver.com/">www.gongjakso.com </a></p>
+    		<p>주소: 제주특별자치도 제주시 구좌읍 해맞이해안로 1446</p>
+   			<c:choose>
 				<c:when test="${loginStat == 1}">
-					<a class="btn btn-success btn-lg px-3"href="/Choice/ChoiceAdd.no?informationid=1">찜하기</a>
+					<a class="btn btn-success btn-lg px-3"href="/Choice/ChoiceAdd.no?informationid=9">찜하기</a>
 				</c:when>
 				<c:otherwise>
 					<p></p>
@@ -202,9 +198,10 @@
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">
-    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35913.02517970028!2d127.194931500579!3d37.28819016340244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5403ce34d773%3A0x1fa18ab619238098!2z7JeQ67KE656c65Oc!5e0!3m2!1sko!2skr!4v1641283138335!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.1046459260924!2d126.8577419149551!3d33.52466478075272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d16718261dbff%3A0x8e45593c2e8c1b35!2z7Lm07Y6Y6rO17J6R7IaM!5e0!3m2!1sko!2skr!4v1647244225915!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
     </section>
+
     <jsp:include page="/footer.jsp"/>
     
     <!-- Start Script -->

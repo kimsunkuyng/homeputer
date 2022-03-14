@@ -29,7 +29,6 @@
 </head>
 <body>
    <jsp:include page="/header.jsp" />
-   
 	<c:set var="getchoice" value="${requestScope.getChoice }"/>
    <div class="jumbtron" style = "margin: 100px">
       <div class="container" style = "padding: 0px 40px 40px 40px; color : #28A745">
@@ -49,13 +48,13 @@
             <th></th>
          </tr>
          <c:choose>
-	         <c:when test="${getchoice != null and fn:length(getchoice) > 0}">
+	         <c:when test="${fn:length(getchoice) > 0}">
 		         <c:forEach var="choice" items="${getchoice}">
 		         	<tr>
 		         		<td>${choice.locationname}</td>
 		         		<td>${choice.categoryname}</td>
-		         		<td><a href="/app/information/inform${choice.informationid}.jsp">${choice.informationname}</a></td>
-               <td align="right"><a href="/Choice/ChoiceDelete.no?choiceid=${choice.choiceid}" class="btn btn-danger">삭제하기</a></td>            
+		         		<td><a href="/app/information/info${choice.informationid}.jsp">${choice.informationname}</a></td>
+               			<td align="right"><a href="/Choice/ChoiceDelete.no?choiceid=${choice.choiceid}" class="btn btn-danger">삭제하기</a></td>            
 		         	</tr>
 		         </c:forEach>
 	         </c:when>
@@ -67,11 +66,10 @@
          </c:choose>
       </table>
      	</form>
-      <a href="../information/categoryGyeonggi.jsp" class="btn btn-secondary"> &laquo; 뒤로가기</a> 
+      <a href="/" class="btn btn-secondary"> &laquo; 뒤로가기</a> 
    </div>
    <hr>
    </div>
-   
    <jsp:include page="/footer.jsp" />
 </body>
 </html>
