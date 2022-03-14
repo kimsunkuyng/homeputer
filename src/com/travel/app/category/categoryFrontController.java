@@ -1,4 +1,4 @@
-package com.travel.category;
+package com.travel.app.category;
 
 import java.io.IOException;
 
@@ -29,8 +29,32 @@ public class categoryFrontController extends HttpServlet {
 		ActionForward forward = null;
 		
 		switch (requestURI) {
-		case "/category/categoryList.ca":	
-			forward = new CategoryListAction().execute(req, resp);
+		case "/category/SeoulList.ca":	
+			forward = new SeoulLisAction().execute(req, resp);
+			break;
+		
+		case "/category/GyeonggiList.ca":	
+			forward = new GyeonggiListAction().execute(req, resp);
+			break;
+		
+		case "/category/GangwonList.ca":	
+			forward = new GangwonListAction().execute(req, resp);
+			break;
+		
+		case "/category/ChungcheonList.ca":	
+			forward = new ChungcheonListAction().execute(req, resp);
+			break;
+		
+		case "/category/JeollaList.ca":	
+			forward = new JeollaListAction().execute(req, resp);
+			break;
+		
+		case "/category/GyeongsangList.ca":	
+			forward = new GyeongsangListAction().execute(req, resp);
+			break;
+		
+		case "/category/JejuList.ca":	
+			forward = new JejuListAction().execute(req, resp);
 			break;
 		}
 		

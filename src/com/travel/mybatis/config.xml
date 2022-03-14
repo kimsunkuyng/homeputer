@@ -9,7 +9,7 @@
 		<typeAlias type="com.travel.app.post.dao.PostDTO" alias="postdto"/>
 		<typeAlias type="com.travel.app.user.dao.UserInfoDTO" alias="userinfodto" />
 		<typeAlias type="com.travel.app.Choice.dao.ChoiceDTO" alias="choicedto"/>
-		<typeAlias type="com.travel.category.dao.CategoryDTO" alias="categorydto"/>
+		<typeAlias type="com.travel.app.category.dao.CategoryDTO" alias="categorydto"/>
 	</typeAliases>
 	
 	<environments default="development">

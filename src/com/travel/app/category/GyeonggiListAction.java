@@ -1,4 +1,4 @@
-package com.travel.category;
+package com.travel.app.category;
 
 import java.util.List;
 
@@ -7,10 +7,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.travel.action.Action;
 import com.travel.action.ActionForward;
-import com.travel.category.dao.CategoryDAO;
-import com.travel.category.dao.CategoryDTO;
+import com.travel.app.category.dao.CategoryDAO;
+import com.travel.app.category.dao.CategoryDTO;
 
-public class CategoryListAction implements Action{
+public class GyeonggiListAction implements Action{
 
 	@Override
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) {

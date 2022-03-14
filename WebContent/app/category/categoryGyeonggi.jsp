@@ -11,7 +11,7 @@
 </head>
 <body>
 <head>
-<title>Zay Shop - About Page</title>
+<title>categoryGyeonggi</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row align-items-center py-5">
                 <div class="col-md-8 text-white">
-                    <h1>경기도</h1>
+                    <h1 style="font-size: 48px;">경기도</h1>
                 </div>
 	        </div>
         </div>
@@ -53,22 +53,29 @@
 	    <section class="container py-5">
 	        <div class="row text-center pt-5 pb-3">
 	            <div class="col-lg-6 m-auto">
-	                <h1 class="h1">관광지</h1>
+	                <h2 style="font-size: 36px">관광지</h2>
 	            </div>
 	        </div>
 	        <div class="row">
-	        	<c:forEach var="information" items="${caList1 }">
-			        <div class="col-md-6 col-lg-3 pb-5">
-		        		<a href="/app/information/info${information.informationid }.jsp">
-			                <div class="h-100 py-5 services-icon-wap shadow">
-				                <div class="${information.informationImg }">
-				                	<img width="100%" height="70%" src="${information.informationImg }">
-				                    <h2 class="h5 mt-4 text-center">${information.informationname }</h2>
-				                </div>
-				            </div>    
-		        		</a>
-		            </div>
-	        	</c:forEach>
+				<c:choose>
+					<c:when test="${fn:length(caList1) == 0 }">
+						<h4 style="text-align: center;">등록된 관광지가 없습니다</h4>
+					</c:when>
+					<c:otherwise>
+			        	<c:forEach var="information" items="${caList1 }">
+					        <div class="col-md-6 col-lg-3 pb-5">
+				        		<a href="/app/information/info${information.informationid }.jsp">
+					                <div class="h-100 py-5 services-icon-wap shadow">
+						                <div class="${information.informationImg }">
+						                	<img width="100%" height="70%" src="${information.informationImg }">
+						                    <h2 class="h5 mt-4 text-center">${information.informationname }</h2>
+						                </div>
+						            </div>    
+				        		</a>
+				            </div>
+			        	</c:forEach>
+					</c:otherwise>
+				</c:choose>
 	        </div>
 	    </section>
     </div>
@@ -78,22 +85,29 @@
 	    <section class="container py-5">
 	        <div class="row text-center pt-5 pb-3">
 	            <div class="col-lg-6 m-auto">
-	                <h1 class="h1">축제</h1>
+	                <h1 style="font-size: 36px">축제</h1>
 	            </div>
 	        </div>
 	        <div class="row">
-	        	<c:forEach var="information" items="${caList2 }">
-			        <div class="col-md-6 col-lg-3 pb-5">
-		        		<a href="/app/information/info1.jsp">
-			                <div class="h-100 py-5 services-icon-wap shadow">
-				                <div class="${information.informationImg }">
-				                	<img width="100%" height="70%" src="${information.informationImg }">
-				                    <h2 class="h5 mt-4 text-center">${information.informationname }</h2>
-				                </div>
-				            </div>    
-		        		</a>
-		            </div>
-	        	</c:forEach>
+	        	<c:choose>
+					<c:when test="${fn:length(caList2) == 0 }">
+						<h4 style="text-align: center;">등록된 축제가 없습니다</h4>
+					</c:when>
+					<c:otherwise>
+			        	<c:forEach var="information" items="${caList2 }">
+					        <div class="col-md-6 col-lg-3 pb-5">
+				        		<a href="/app/information/info1.jsp">
+					                <div class="h-100 py-5 services-icon-wap shadow">
+						                <div class="${information.informationImg }">
+						                	<img width="100%" height="70%" src="${information.informationImg }">
+						                    <h2 class="h5 mt-4 text-center">${information.informationname }</h2>
+						                </div>
+						            </div>    
+				        		</a>
+				            </div>
+			        	</c:forEach>
+	        		</c:otherwise>
+				</c:choose>
 	        </div>
 	    </section>
     </div>
@@ -103,22 +117,29 @@
 	    <section class="container py-5">
 	        <div class="row text-center pt-5 pb-3">
 	            <div class="col-lg-6 m-auto">
-	                <h1 class="h1">맛집</h1>
+	                <h1 style="font-size: 36px">맛집</h1>
 	            </div>
 	        </div>
 	        <div class="row">
-	            <c:forEach var="information" items="${caList3 }">
-			        <div class="col-md-6 col-lg-3 pb-5">
-		        		<a href="/app/information/info1.jsp">
-			                <div class="h-100 py-5 services-icon-wap shadow">
-				                <div class="${information.informationImg }">
-				                	<img width="100%" height="70%" src="${information.informationImg }">
-				                    <h2 class="h5 mt-4 text-center">${information.informationname }</h2>
-				                </div>
-				            </div>    
-		        		</a>
-		            </div>
-	        	</c:forEach>
+	        	<c:choose>
+					<c:when test="${fn:length(caList3) == 0 }">
+						<h4 style="text-align: center;">등록된 맛집이 없습니다</h4>
+					</c:when>
+					<c:otherwise>
+			            <c:forEach var="information" items="${caList3 }">
+					        <div class="col-md-6 col-lg-3 pb-5">
+				        		<a href="/app/information/info1.jsp">
+					                <div class="h-100 py-5 services-icon-wap shadow">
+						                <div class="${information.informationImg }">
+						                	<img width="100%" height="70%" src="${information.informationImg }">
+						                    <h2 class="h5 mt-4 text-center">${information.informationname }</h2>
+						                </div>
+						            </div>    
+				        		</a>
+				            </div>
+			        	</c:forEach>
+	        		</c:otherwise>
+				</c:choose>
 	        </div>
 	    </section>
     </div>
