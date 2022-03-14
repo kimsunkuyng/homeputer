@@ -142,18 +142,6 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-10 text-center">
-				<a>aaa</a>
-			</div>
-			<div class="col-2 text-end">	
-				<a class="btn btn-success btn-lg px-3">bbb</a>
-			</div>	
-		</div>	
-	</div>
-	
 	<jsp:include page="/footer.jsp"/>
 	    <!-- Start Script -->
     <script src="/assets/js/jquery-1.11.0.min.js"></script>

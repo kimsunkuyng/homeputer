@@ -6,7 +6,7 @@
 		<select id="getChoice" resultType="choicedto" parameterType="string">
 			SELECT USER_INDEX ,  c.CHOICEID , L.LOCATIONNAME , c2.CATEGORYNAME , i.INFORMATIONNAME , i.INFORMATIONID  FROM CHOICE c INNER JOIN INFORMATION i ON c.INFORMATIONID  = i.INFORMATIONID JOIN CATEGORY c2 ON i.CATEGORYID = c2.CATEGORYID JOIN location L ON i.LOCATIONID = L.LOCATIONID WHERE USER_INDEX = #{user_index}
 		</select>
-		<insert id="addChoice" parameterType="string">
+		<insert id="addChoice" parameterType="hashmap">
 			INSERT INTO CHOICE VALUES (choice_seq.nextval , #{informationid} , #{user_index})
 		</insert>
 		<delete id="deleteChoice" parameterType="string">

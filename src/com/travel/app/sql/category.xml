@@ -5,12 +5,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 <mapper namespace="Category">
 	<select id="getCategoryList1" resultType="categorydto">
-		SELECT * FROM INFORMATION i WHERE CATEGORYID = 1
+		SELECT * FROM INFORMATION i WHERE CATEGORYID = 1 AND locationId = 2
 	</select>
 	<select id="getCategoryList2" resultType="categorydto">
-		SELECT * FROM INFORMATION i WHERE CATEGORYID = 2
+		SELECT * FROM INFORMATION i WHERE CATEGORYID = 2 and locationid = 2
 	</select>
 	<select id="getCategoryList3" resultType="categorydto">
-		SELECT * FROM INFORMATION i WHERE CATEGORYID = 3
+		SELECT * FROM INFORMATION i WHERE CATEGORYID = 3 and locationid = 2
 	</select>
 </mapper>

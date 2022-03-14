@@ -54,21 +54,21 @@
             <div class="carousel-item active">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong01.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoYeonnamdong/infoYeonnamdong01.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong02.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoYeonnamdong/infoYeonnamdong02.jpg" alt="">
                 	</div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
                 	<div class="row p-3 col-9 align-items-center m-auto">
-                    	<img class="img-fluid" src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong03.jpg" alt="">
+                    	<img class="img-fluid" src="/assets/img/information/infoYeonnamdong/infoYeonnamdong03.jpg" alt="">
                 	</div>
                 </div>
             </div>
@@ -101,12 +101,9 @@
                 </p>
             </div>
         </div>
-        <div>
-        	<a href="/Choice/ChoiceAdd.no?informationid=1">찜하기</a>
-        </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong04.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoYeonnamdong/infoYeonnamdong04.jpg" class="rounded-circle img-fluid border">
                 <h5 class="text-center mt-3 mb-3">외관부터 완벽한 연남동 거리✨</h5>
                 <p class="text-center">
                 	밥 먹으러 왔다가 인생샷 건져가는<br>
@@ -115,7 +112,7 @@
                 </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong05.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoYeonnamdong/infoYeonnamdong05.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">카페 거리🧁</h2>
                 <p class="text-center">
                		 식사 후 즐기는 예쁘고 달달한 간식이라면
@@ -124,7 +121,7 @@
                 </p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong06.jpg" class="rounded-circle img-fluid border">
+                <img src="/assets/img/information/infoYeonnamdong/infoYeonnamdong06.jpg" class="rounded-circle img-fluid border">
                 <h2 class="h5 text-center mt-3 mb-3">교통수단🚅</h2>
                 <p class="text-center">
                 	답답하고 오지 않는 버스는 그만!
@@ -152,13 +149,8 @@
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong07.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoYeonnamdong/infoYeonnamdong07.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                            </ul>
                             <h2 class="h2 text-decoration-none text-dark">영어롭다</h2>
                             <p class="card-text">
                                 <br>신선한 연어회와
@@ -171,13 +163,8 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong08.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoYeonnamdong/infoYeonnamdong08.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                            </ul>
                             <h2 class="h2 text-decoration-none text-dark">연남귀향</h2>
                             <p class="card-text">
                                 <br>감성돋는 건물 디자인,
@@ -189,13 +176,8 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                            <img src="../../assets/img/information/infoYeonnamdong/infoYeonnamdong09.jpg" class="card-img-top" alt="...">
+                            <img src="/assets/img/information/infoYeonnamdong/infoYeonnamdong09.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <br>
-                                </li>
-                            </ul>
                             <h2 class="h2 text-decoration-none text-dark">대중곱창</h2>
                             <p class="card-text">
                                 <br>고즈넉한 저녁밤과 잘 어울리는
@@ -222,6 +204,7 @@
     		<p>전화번호: x
     		<p>홈페이지 주소 : x</p>
     		<p>주소: 서울특별시 마포구</p>
+    		<jsp:include page="/app/choice/addChoice.jsp"/>
     	</div>
     	<!-- 지도 넣기 -->
     	<div class="col-5">
