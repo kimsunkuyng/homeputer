@@ -16,11 +16,10 @@ public class CategoryListAction implements Action{
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) {
 		ActionForward forward = new ActionForward();
 		CategoryDAO cadao = new CategoryDAO();
-		System.out.println("1234");
-		List<CategoryDTO> caList = cadao.getCategoryList();
-		System.out.println("cdao" + cadao);
 		
-		request.setAttribute("caList", caList);
+		request.setAttribute("caList1", cadao.getCategoryList1());
+		request.setAttribute("caList2", cadao.getCategoryList2());
+		request.setAttribute("caList3", cadao.getCategoryList3());
 		
 		forward.setRedirect(false);
 		forward.setPath(request.getContextPath() + "/app/category/categoryGyeonggi.jsp");
