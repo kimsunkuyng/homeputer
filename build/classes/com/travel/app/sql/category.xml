@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Category">
+	<select id="getPlaceList" resultType="categorydto">
+		SELECT * FROM INFORMATION i WHERE CATEGORYID = 1 AND locationId = #{locationid}
+	</select>
+	<select id="getFestivalList" resultType="categorydto">
+		SELECT * FROM INFORMATION i WHERE CATEGORYID = 2 and locationid = #{locationid}
+	</select>
+	<select id="getRestaurantList" resultType="categorydto">
+		SELECT * FROM INFORMATION i WHERE CATEGORYID = 3 and locationid = #{locationid}
+	</select>
+</mapper>
