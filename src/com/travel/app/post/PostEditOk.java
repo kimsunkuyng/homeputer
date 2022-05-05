@@ -31,7 +31,7 @@ public class PostEditOk implements Action {
 		System.out.println(pdto.getUserIndex());
 		
 		pdao.insertPost(pdto);
-		forward.setPath(request.getContextPath() + "/post/post.do?page=1");
+		forward.setPath(request.getContextPath() + "/post/postAll.do?postCategory=0");
 //		try {
 //		} catch (Exception e) {
 //			//얼럿처리

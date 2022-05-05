@@ -45,7 +45,7 @@ public class PostDAO {
 	}
 	*/
 	
-	public PostDTO getDetail(int postId) {
+	public PostDTO getDetail(String postId) {
 		return sqlsession.selectOne("Post.getDetail", postId);
 	}
 

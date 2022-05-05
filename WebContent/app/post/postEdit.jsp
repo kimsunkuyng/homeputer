@@ -48,7 +48,7 @@
                	<div class="row">
                    <div class="col text-end mt-2">
                        <input type="submit" class="btn btn-success btn-lg px-3" value="글쓰기">
-                       <a type="button" class="btn btn-success btn-lg px-3" href="/post/post.do">목록</a>
+                       <a type="button" class="btn btn-success btn-lg px-3" href="/post/postAll.do?postCategory=0">목록</a>
                    </div>
                	</div>
       		</div>

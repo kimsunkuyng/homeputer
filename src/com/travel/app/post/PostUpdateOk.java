@@ -27,7 +27,7 @@ public class PostUpdateOk implements Action {
 		
 		try {
 			pdao.updatePost(pdto);
-			forward.setPath(request.getContextPath() + "/post/post.do?page=1");
+			forward.setPath(request.getContextPath() + "/post/post_view.do?postId=" + postId);
 		} catch (Exception e) {
 			//얼럿처리
 			forward.setPath(request.getContextPath() + "/post/postEdit.do");

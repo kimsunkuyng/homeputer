@@ -42,7 +42,7 @@
 						<c:choose>
 							<c:when test="${user_index == post.userIndex }">
 								<a class="btn btn-success btn-lg px-3" href="${pageContext.request.contextPath }/post/postUpdate.do?postId=${post.postId}">수정</a>
-								<a class="btn btn-success btn-lg px-3" href="${pageContext.request.contextPath }/post/post.do">목록</a>
+								<a class="btn btn-success btn-lg px-3" href="${pageContext.request.contextPath }/post/postAll.do?postCategory=0">목록</a>
 							</c:when>
 							<c:otherwise>
 								<a class="btn btn-success btn-lg px-3" href="${pageContext.request.contextPath }/post/post.do">목록</a>

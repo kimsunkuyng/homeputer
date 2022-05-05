@@ -14,7 +14,7 @@ public class Post_viewAction implements Action {
 		ActionForward forward = new ActionForward();
 		PostDAO pdao = new PostDAO();
 		
-		int postId = Integer.parseInt(request.getParameter("postId"));
+		String postId = request.getParameter("postId");
 		
 		request.setAttribute("post", pdao.getDetail(postId));
 		forward.setRedirect(false);

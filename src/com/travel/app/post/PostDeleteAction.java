@@ -23,7 +23,7 @@ public class PostDeleteAction implements Action{
 		
 		forward.setRedirect(true);
 		if(pdao.deletePost(postId)) {
-			forward.setPath(request.getContextPath() + "/post/post.do?page=1");
+			forward.setPath(request.getContextPath() + "/post/postAll.do?postCategory=0");
 		} else {
 			forward.setPath(request.getContextPath() + "/post/postUpdate.do?page=" + postId);
 		}
