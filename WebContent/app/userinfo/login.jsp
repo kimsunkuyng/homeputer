@@ -45,13 +45,13 @@ e[s]=e[s]||[],e.zaraz._preTrack=[],e.zaraz.track=(t,r)=>e.zaraz._preTrack.push([
 					<span class="login100-form-title"> 행여나 </span>
 					<div class="wrap-input100 validate-input m-b-16"
 						data-validate="Please enter username">
-						<input class="input100" type="text" name="user_id"
-							placeholder="아이디"> <span class="focus-input100"></span>
+						<input class="input100" type="text" name="user_id" placeholder="아이디"> 
+						<span class="focus-input100"></span>
 					</div>
 					<div class="wrap-input100 validate-input"
 						data-validate="Please enter password">
-						<input class="input100" type="password" name="user_pw"
-							placeholder="비밀번호"> <span class="focus-input100"></span>
+						<input class="input100" type="password" name="user_pw" placeholder="비밀번호"> 
+						<span class="focus-input100"></span>
 					</div>
 					<div class="text-right p-t-13 p-b-23">
 						<a href="#" class="txt2"> 아이디 찾기 /</a><a href="#" class="txt2">
